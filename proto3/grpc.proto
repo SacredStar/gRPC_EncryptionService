@@ -1,0 +1,23 @@
+syntax= "proto3";
+
+package DevEncryptionRPC;
+option go_package = "./gRPCEncryptedStorage";
+
+service PasswordsStorage{
+  rpc GetStorage(Token) returns(storage);
+  rpc AddUpdateStorageRecord(storage) returns(AnswerResultCode);
+  rpc DeleteRecord(storage) returns(AnswerResultCode);
+}
+message Token {
+  string token = 1;
+}
+
+message storage {
+  repeated string site = 1;
+  repeated string login = 2;
+  repeated string password = 3; // TODO: Enrypt password?
+}
+
+  message AnswerResultCode {
+  int32 result = 1;
+}
