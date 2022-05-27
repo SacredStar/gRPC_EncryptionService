@@ -1,7 +1,7 @@
 package main
 
 import (
-	app "ClientService/internal/application"
+	appl "ClientService/internal/application"
 	"ClientService/internal/logging"
 	Settings "ClientService/internal/settings"
 	"log"
@@ -18,10 +18,11 @@ func main() {
 	log.Println("Getting logger of client application...")
 	logger := logging.StartLog(cfg.LoggerConfig.LogLevel, cfg.LoggerConfig.LogFile)
 	logger.Info().Msg("Starting application...")
-	_, err := app.NewApplication(cfg, logger)
+	app, err := appl.NewApplication(cfg, logger)
 	if err != nil {
 		logger.Fatal().Err(err).Msg("Application can't start")
 	}
+	app.Run()
 	//logger.Info().Str("foo", "bar").Msg("Hello world")
 	//StartgRPC()
 }
