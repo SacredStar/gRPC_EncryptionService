@@ -13,7 +13,6 @@ const (
 type Handler struct {
 }
 
-// Register TODO: understood how it's work
 func (h *Handler) Register(router *httprouter.Router) {
 	router.HandlerFunc(http.MethodGet, URL, h.Heartbeat)
 }

@@ -1,14 +1,15 @@
 package logging
 
 import (
-	"github.com/rs/zerolog"
-	_ "github.com/rs/zerolog"
-	_ "github.com/rs/zerolog/log"
 	"io"
 	"log"
 	"os"
 	"sync"
 	"time"
+
+	"github.com/rs/zerolog"
+	_ "github.com/rs/zerolog"
+	_ "github.com/rs/zerolog/log"
 )
 
 type Logger struct {

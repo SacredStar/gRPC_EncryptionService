@@ -1,18 +1,22 @@
 package application
 
 import (
-	_ "ClientService/docs"
-	"ClientService/internal/logging"
-	"ClientService/internal/metrics"
-	Settings "ClientService/internal/settings"
 	"context"
 	"errors"
 	"fmt"
-	"github.com/julienschmidt/httprouter"
-	httpSwagger "github.com/swaggo/http-swagger"
 	"net"
 	"net/http"
 	"time"
+
+	_ "ClientService/docs"
+	gui_html "ClientService/internal/HTML"
+	"ClientService/internal/logging"
+	"ClientService/internal/metrics"
+	Settings "ClientService/internal/settings"
+
+	"github.com/julienschmidt/httprouter"
+	"github.com/rs/cors"
+	httpSwagger "github.com/swaggo/http-swagger"
 )
 
 type Application struct {
@@ -31,7 +35,7 @@ func NewApplication(cfg *Settings.ClientConfig, logger *logging.Logger) (Applica
 		logger: logger,
 		router: router,
 	}
-	app.logger.Info().Msg("Application correctly started")
+	app.logger.Info().Msg("Application correctly created")
 	return app, nil
 }
 
@@ -43,19 +47,21 @@ func startRouting(logger *logging.Logger) *httprouter.Router {
 	router.Handler(http.MethodGet, "/swagger", http.RedirectHandler("swagger/index.html", http.StatusMovedPermanently))
 	router.Handler(http.MethodGet, "/swagger/*any", httpSwagger.WrapHandler)
 
-	// TODO: CORS?
+	logger.Info().Msg("HTML main page initialising...")
+	guiHandler := gui_html.Handler{}
+	guiHandler.Register(router)
 
-	logger.Info().Msg("heartbeat metric initializing...")
+	logger.Info().Msg("Metrics initializing...")
 	metricHandler := metrics.Handler{}
 	metricHandler.Register(router)
 	return router
 }
 
 func (app *Application) Run() {
-	app.startHTTP()
+	app.startHTTP(app.cfg.IsCORSEnabled)
 }
 
-func (app *Application) startHTTP() {
+func (app *Application) startHTTP(IsCORSEnabled bool) {
 	app.logger.Info().Msg("starting HTTP...")
 
 	var listener net.Listener
@@ -65,31 +71,29 @@ func (app *Application) startHTTP() {
 	if err != nil {
 		app.logger.Fatal().Err(err).Msg("Can't start listening")
 	}
-	// TODO: CORS enable?
-	/*c := cors.New(cors.Options{
-		AllowedMethods:     []string{http.MethodGet, http.MethodPost, http.MethodPatch, http.MethodPut, http.MethodOptions, http.MethodDelete},
-		AllowedOrigins:     []string{"http://localhost:3000", "http://localhost:8080"},
-		AllowCredentials:   true,
-		AllowedHeaders:     []string{"Location", "Charset", "Access-Control-Allow-Origin", "Content-Type", "content-type", "Origin", "Accept", "Content-Length", "Accept-Encoding", "X-CSRF-Token"},
-		OptionsPassthrough: true,
-		ExposedHeaders:     []string{"Location", "Authorization", "Content-Disposition"},
-		// Enable Debugging for testing, consider disabling in production
-		Debug: false,
-	})
-
-	handler := c.Handler(app.router)
-
-	app.httpServer = &http.Server{
-		Handler:      handler,
-		WriteTimeout: 15 * time.Second,
-		ReadTimeout:  15 * time.Second,
-	}*/
-	handler := app.router
+	var handler http.Handler
+	// TODO: Understood CORS methods...
+	if IsCORSEnabled {
+		c := cors.New(cors.Options{
+			AllowedMethods:     []string{http.MethodGet, http.MethodPost, http.MethodPatch, http.MethodPut, http.MethodOptions, http.MethodDelete},
+			AllowedOrigins:     []string{"http://localhost:3000", "http://localhost:8080"},
+			AllowCredentials:   true,
+			AllowedHeaders:     []string{"Location", "Charset", "Access-Control-Allow-Origin", "Content-Type", "content-type", "Origin", "Accept", "Content-Length", "Accept-Encoding", "X-CSRF-Token"},
+			OptionsPassthrough: true,
+			ExposedHeaders:     []string{"Location", "Authorization", "Content-Disposition"},
+			// Enable Debugging for testing, consider disabling in production
+			Debug: false,
+		})
+		handler = c.Handler(app.router)
+	} else {
+		handler = app.router
+	}
 	app.httpServer = &http.Server{
 		Handler:      handler,
 		WriteTimeout: 15 * time.Second,
 		ReadTimeout:  15 * time.Second,
 	}
+
 	app.logger.Info().Msg("Application initialise completely and started.")
 
 	if err := app.httpServer.Serve(listener); err != nil {

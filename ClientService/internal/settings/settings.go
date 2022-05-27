@@ -2,9 +2,10 @@ package Settings
 
 import (
 	"fmt"
+	"sync"
+
 	"github.com/caarlos0/env/v6"
 	"github.com/rs/zerolog"
-	"sync"
 )
 
 type ClientConfig struct {
@@ -14,6 +15,7 @@ type ClientConfig struct {
 
 	Host           string `env:"HOST" envDefault:"0.0.0.0"`
 	TimeoutContext int    `env:"TIMEOUT" envDefault:"10"` // * time.Seconds
+	IsCORSEnabled  bool   `env:"CORS" envDefault:"false"`
 	TempFolder     string `env:"TEMP_FOLDER" envDefault:"${HOME}/tmp" envExpand:"true"`
 	LoggerConfig   struct {
 		LogLevel     zerolog.Level `env:"LOGLEVEL" envDefault:"-1"`
