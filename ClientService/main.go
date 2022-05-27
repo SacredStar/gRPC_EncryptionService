@@ -20,7 +20,7 @@ func main() {
 	logger.Info().Msg("Starting application...")
 	_, err := app.NewApplication(cfg, logger)
 	if err != nil {
-		logger.Fatal().Err(err).Msg("Application cant start")
+		logger.Fatal().Err(err).Msg("Application can't start")
 	}
 	//logger.Info().Str("foo", "bar").Msg("Hello world")
 	//StartgRPC()
