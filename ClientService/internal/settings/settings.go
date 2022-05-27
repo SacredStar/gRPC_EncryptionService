@@ -12,9 +12,9 @@ type ClientConfig struct {
 	Port     string `env:"PORT" envDefault:"3000"`
 	Password string `env:"PASSWORD,unset"`
 
-	Hosts          []string `env:"HOSTS" envSeparator:":"`
-	TimeoutContext int      `env:"TIMEOUT" envDefault:"10"` // * time.Seconds
-	TempFolder     string   `env:"TEMP_FOLDER" envDefault:"${HOME}/tmp" envExpand:"true"`
+	Host           string `env:"HOST" envDefault:"0.0.0.0"`
+	TimeoutContext int    `env:"TIMEOUT" envDefault:"10"` // * time.Seconds
+	TempFolder     string `env:"TEMP_FOLDER" envDefault:"${HOME}/tmp" envExpand:"true"`
 	LoggerConfig   struct {
 		LogLevel     zerolog.Level `env:"LOGLEVEL" envDefault:"-1"`
 		IsProduction bool          `env:"PRODUCTION"`
