@@ -24,12 +24,13 @@ func StartLog(level zerolog.Level, pathToLogFile string) *Logger {
 		if err != nil {
 			panic(err)
 		}
-		//Using multiwriter to write Stdout(customize time format) and log file
+		//Using multi-writer to write Stdout(customize time format) and log file
 		mw := io.MultiWriter(zerolog.ConsoleWriter{Out: os.Stdout, TimeFormat: time.RFC850}, logFile)
 		// Customize field name
 		zerolog.TimestampFieldName = "t"
 		zerolog.LevelFieldName = "l"
 		zerolog.MessageFieldName = "m"
+		zerolog.CallerFieldName = "c"
 
 		innerLogger := zerolog.New(mw).With().Timestamp().Caller().Logger()
 		innerLogger.Output(zerolog.ConsoleWriter{Out: os.Stderr})

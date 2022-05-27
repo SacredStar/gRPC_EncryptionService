@@ -4,7 +4,7 @@
 // 	protoc        v3.20.1
 // source: grpc.proto
 
-package gRPCEncryptedStorage
+package gRPCproto
 
 import (
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
@@ -25,7 +25,7 @@ type Token struct {
 	sizeCache     protoimpl.SizeCache
 	unknownFields protoimpl.UnknownFields
 
-	Token string `protobuf:"bytes,1,opt,name=token,proto3" json:"token,omitempty"`
+	Token string `protobuf:"bytes,1,opt,name=token,gRPCproto" json:"token,omitempty"`
 }
 
 func (x *Token) Reset() {
@@ -72,9 +72,9 @@ type Storage struct {
 	sizeCache     protoimpl.SizeCache
 	unknownFields protoimpl.UnknownFields
 
-	Site     []string `protobuf:"bytes,1,rep,name=site,proto3" json:"site,omitempty"`
-	Login    []string `protobuf:"bytes,2,rep,name=login,proto3" json:"login,omitempty"`
-	Password []string `protobuf:"bytes,3,rep,name=password,proto3" json:"password,omitempty"` // TODO: Enrypt password?
+	Site     []string `protobuf:"bytes,1,rep,name=site,gRPCproto" json:"site,omitempty"`
+	Login    []string `protobuf:"bytes,2,rep,name=login,gRPCproto" json:"login,omitempty"`
+	Password []string `protobuf:"bytes,3,rep,name=password,gRPCproto" json:"password,omitempty"` // TODO: Enrypt password?
 }
 
 func (x *Storage) Reset() {
@@ -135,7 +135,7 @@ type AnswerResultCode struct {
 	sizeCache     protoimpl.SizeCache
 	unknownFields protoimpl.UnknownFields
 
-	Result int32 `protobuf:"varint,1,opt,name=result,proto3" json:"result,omitempty"`
+	Result int32 `protobuf:"varint,1,opt,name=result,gRPCproto" json:"result,omitempty"`
 }
 
 func (x *AnswerResultCode) Reset() {

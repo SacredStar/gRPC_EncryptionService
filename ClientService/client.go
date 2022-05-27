@@ -1,10 +1,9 @@
 package main
 
 import (
-	app "gRPCClientServerForEncryption/ClientService/internal/application"
-	"gRPCClientServerForEncryption/ClientService/internal/logging"
-	"gRPCClientServerForEncryption/ClientService/internal/settings"
-	_ "google.golang.org/protobuf/proto"
+	app "ClientService/internal/application"
+	"ClientService/internal/logging"
+	Settings "ClientService/internal/settings"
 	"log"
 )
 
@@ -26,26 +25,3 @@ func main() {
 	//logger.Info().Str("foo", "bar").Msg("Hello world")
 	//StartgRPC()
 }
-
-/*
-func StartgRPC() {
-	conn, err := grpc.Dial(addr, grpc.WithTransportCredentials(insecure.NewCredentials()))
-	err = fmt.Errorf("err")
-	if err != nil {
-		log.Fatalf("did not connect: %v", err)
-	}
-	defer conn.Close()
-	c := pb.NewPasswordsStorageClient(conn)
-
-	// Contact the server and print out its response.
-	ctx, cancel := context.WithTimeout(context.Background(), time.Second)
-	defer cancel()
-	r, err := c.GetStorage(ctx, &pb.Token{
-		Token: "123",
-	})
-	if err != nil {
-		log.Fatalf("could not Get Strage: %v", err)
-	}
-	log.Printf("Greeting: %s", r.GetLogin())
-}
-*/

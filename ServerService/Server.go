@@ -1,10 +1,10 @@
 package main
 
 import (
+	pb "ServerService/gRPCproto"
 	"context"
 	"flag"
 	"fmt"
-	pb "gRPCClientServerForEncryption/proto3"
 	"google.golang.org/grpc"
 	"log"
 	"net"
@@ -17,6 +17,7 @@ type server struct {
 // SayHello implements helloworld.GreeterServer
 func (s *server) GetStorage(ctx context.Context, in *pb.Token) (*pb.Storage, error) {
 	log.Printf("Received: %v", in.GetToken())
+	defer ctx.Done()
 	return &pb.Storage{
 		Site:     []string{"MySite", "1"},
 		Login:    []string{"Hello"},

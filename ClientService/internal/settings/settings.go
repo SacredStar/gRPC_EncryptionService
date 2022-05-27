@@ -9,7 +9,7 @@ import (
 
 type ClientConfig struct {
 	HomeDir  string `env:"HOME"`
-	Port     int    `env:"PORT" envDefault:"3000"`
+	Port     string `env:"PORT" envDefault:"3000"`
 	Password string `env:"PASSWORD,unset"`
 
 	Hosts          []string `env:"HOSTS" envSeparator:":"`
@@ -18,7 +18,7 @@ type ClientConfig struct {
 	LoggerConfig   struct {
 		LogLevel     zerolog.Level `env:"LOGLEVEL" envDefault:"-1"`
 		IsProduction bool          `env:"PRODUCTION"`
-		LogFile      string        `env:"LOG" envDefault:"./ClientService/internal/logging/log.txt"`
+		LogFile      string        `env:"LOG" envDefault:"./internal/logging/log.txt"`
 	}
 }
 
