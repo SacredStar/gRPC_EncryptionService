@@ -1,6 +1,46 @@
 info:
   contact: {}
 paths:
+  /:
+    get:
+      responses:
+        "200":
+          description: ""
+        "500":
+          description: ""
+      summary: Main html page
+      tags:
+      - HTML
+  /AddUpdateStorageRecord:
+    post:
+      responses:
+        "200":
+          description: ""
+        "401":
+          description: ""
+      summary: Getting storage from Encryption Server, through gRPC
+      tags:
+      - HTML
+  /DeleteRecord:
+    post:
+      responses:
+        "200":
+          description: ""
+        "401":
+          description: ""
+      summary: Getting storage from Encryption Server, through gRPC
+      tags:
+      - HTML
+  /GetStorage:
+    post:
+      responses:
+        "200":
+          description: ""
+        "401":
+          description: ""
+      summary: Getting storage from Encryption Server, through gRPC
+      tags:
+      - HTML
   /api/heartbeat:
     get:
       responses:

@@ -16,6 +16,70 @@ const docTemplate = `{
     "host": "{{.Host}}",
     "basePath": "{{.BasePath}}",
     "paths": {
+        "/": {
+            "get": {
+                "tags": [
+                    "HTML"
+                ],
+                "summary": "Main html page",
+                "responses": {
+                    "200": {
+                        "description": ""
+                    },
+                    "500": {
+                        "description": ""
+                    }
+                }
+            }
+        },
+        "/AddUpdateStorageRecord": {
+            "post": {
+                "tags": [
+                    "HTML"
+                ],
+                "summary": "Getting storage from Encryption Server, through gRPC",
+                "responses": {
+                    "200": {
+                        "description": ""
+                    },
+                    "401": {
+                        "description": ""
+                    }
+                }
+            }
+        },
+        "/DeleteRecord": {
+            "post": {
+                "tags": [
+                    "HTML"
+                ],
+                "summary": "Getting storage from Encryption Server, through gRPC",
+                "responses": {
+                    "200": {
+                        "description": ""
+                    },
+                    "401": {
+                        "description": ""
+                    }
+                }
+            }
+        },
+        "/GetStorage": {
+            "post": {
+                "tags": [
+                    "HTML"
+                ],
+                "summary": "Getting storage from Encryption Server, through gRPC",
+                "responses": {
+                    "200": {
+                        "description": ""
+                    },
+                    "401": {
+                        "description": ""
+                    }
+                }
+            }
+        },
         "/api/heartbeat": {
             "get": {
                 "tags": [

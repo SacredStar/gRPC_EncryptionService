@@ -29,7 +29,7 @@ type Application struct {
 func NewApplication(cfg *Settings.ClientConfig, logger *logging.Logger) (Application, error) {
 	logger.Info().Msg("Starting application...")
 	logger.Info().Msg("Starting routing...")
-	router := startRouting(logger)
+	router := startRouting(logger, cfg)
 	app := Application{
 		cfg:    cfg,
 		logger: logger,
@@ -39,7 +39,7 @@ func NewApplication(cfg *Settings.ClientConfig, logger *logging.Logger) (Applica
 	return app, nil
 }
 
-func startRouting(logger *logging.Logger) *httprouter.Router {
+func startRouting(logger *logging.Logger, cfg *Settings.ClientConfig) *httprouter.Router {
 	logger.Info().Msg("Router initialising...")
 	router := httprouter.New()
 
@@ -48,7 +48,9 @@ func startRouting(logger *logging.Logger) *httprouter.Router {
 	router.Handler(http.MethodGet, "/swagger/*any", httpSwagger.WrapHandler)
 
 	logger.Info().Msg("HTML main page initialising...")
-	guiHandler := gui_html.Handler{}
+	guiHandler := gui_html.Handler{
+		HtmlRoot: cfg.HTMLRootFolder,
+	}
 	guiHandler.Register(router)
 
 	logger.Info().Msg("Metrics initializing...")
