@@ -4,13 +4,9 @@ import (
 	"log"
 
 	"ClientService/internal/application"
+	Settings "ClientService/internal/config"
 	"ClientService/internal/logging"
-	Settings "ClientService/internal/settings"
 )
-
-/*var (
-	addr = fmt.Sprintf("%s", "localhost:9999")
-)*/
 
 func main() {
 	log.Println("Starting client application...")
@@ -24,6 +20,5 @@ func main() {
 		logger.Fatal().Err(err).Msg("Application can't start")
 	}
 	app.Run()
-	//logger.Info().Str("foo", "bar").Msg("Hello world")
 	//StartgRPC()
 }

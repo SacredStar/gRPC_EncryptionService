@@ -10,7 +10,7 @@ paths:
           description: ""
       summary: Main html page
       tags:
-      - HTML
+      - gui
   /AddUpdateStorageRecord:
     post:
       responses:
@@ -18,9 +18,9 @@ paths:
           description: ""
         "401":
           description: ""
-      summary: Getting storage from Encryption Server, through gRPC
+      summary: Update or create storage on Encryption Server, through gRPC
       tags:
-      - HTML
+      - gui
   /DeleteRecord:
     post:
       responses:
@@ -28,9 +28,9 @@ paths:
           description: ""
         "401":
           description: ""
-      summary: Getting storage from Encryption Server, through gRPC
+      summary: DeleteRecord by storage from Encryption Server, through gRPC
       tags:
-      - HTML
+      - gui
   /GetStorage:
     post:
       responses:
@@ -40,7 +40,7 @@ paths:
           description: ""
       summary: Getting storage from Encryption Server, through gRPC
       tags:
-      - HTML
+      - gui
   /api/heartbeat:
     get:
       responses:

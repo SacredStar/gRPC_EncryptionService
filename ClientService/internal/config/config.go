@@ -1,4 +1,4 @@
-package Settings
+package Config
 
 import (
 	"fmt"
@@ -12,7 +12,7 @@ type ClientConfig struct {
 	HomeDir        string `env:"HOME"`
 	Port           string `env:"PORT" envDefault:"3000"`
 	Password       string `env:"PASSWORD,unset"`
-	HTMLRootFolder string `env:"HTML_ROOT" envDefault:"./internal/HTML/main.html"`
+	HTMLRootFolder string `env:"HTML_ROOT" envDefault:"./internal/gui/main.html"`
 
 	Host           string `env:"HOST" envDefault:"0.0.0.0"`
 	TimeoutContext int    `env:"TIMEOUT" envDefault:"10"` // * time.Seconds

@@ -26,9 +26,9 @@ func (h *Handler) Register(router *httprouter.Router) {
 	router.HandlerFunc(http.MethodPost, URL_DELETE_RECORD, h.DeleteRecord)
 }
 
-// MainPage TODO: Set HTML template to config file?
+// MainPage TODO: Set gui template to config file?
 // @Summary Main html page
-// @Tags HTML
+// @Tags gui
 // @Success 200
 // @Failure 500
 // @Router / [get]
@@ -48,7 +48,7 @@ func (h *Handler) MainPage(w http.ResponseWriter, _ *http.Request) {
 
 // GetStorage TODO: change return header codes
 // @Summary Getting storage from Encryption Server, through gRPC
-// @Tags HTML
+// @Tags gui
 // @Success 200
 // @Failure 401
 // @Router /GetStorage [post]
@@ -60,7 +60,7 @@ func (h *Handler) GetStorage(w http.ResponseWriter, _ *http.Request) {
 
 // AddUpdateStorageRecord  TODO: change return header codes
 // @Summary Update or create storage on Encryption Server, through gRPC
-// @Tags HTML
+// @Tags gui
 // @Success 200
 // @Failure 401
 // @Router /AddUpdateStorageRecord [post]
@@ -72,7 +72,7 @@ func (h *Handler) AddUpdateStorageRecord(w http.ResponseWriter, _ *http.Request)
 
 // DeleteRecord   TODO: change return header codes
 // @Summary DeleteRecord by storage from Encryption Server, through gRPC
-// @Tags HTML
+// @Tags gui
 // @Success 200
 // @Failure 401
 // @Router /DeleteRecord [post]

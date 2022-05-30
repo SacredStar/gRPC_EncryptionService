@@ -1,8 +1,8 @@
 package gRPC_Client
 
 import (
+	Settings "ClientService/internal/config"
 	"ClientService/internal/logging"
-	Settings "ClientService/internal/settings"
 )
 
 type Application struct {

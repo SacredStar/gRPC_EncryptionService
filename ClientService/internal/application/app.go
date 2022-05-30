@@ -9,10 +9,10 @@ import (
 	"time"
 
 	_ "ClientService/docs"
-	gui_html "ClientService/internal/HTML"
+	Settings "ClientService/internal/config"
+	guihtml "ClientService/internal/gui"
 	"ClientService/internal/logging"
 	"ClientService/internal/metrics"
-	Settings "ClientService/internal/settings"
 
 	"github.com/julienschmidt/httprouter"
 	"github.com/rs/cors"
@@ -47,8 +47,8 @@ func startRouting(logger *logging.Logger, cfg *Settings.ClientConfig) *httproute
 	router.Handler(http.MethodGet, "/swagger", http.RedirectHandler("swagger/index.html", http.StatusMovedPermanently))
 	router.Handler(http.MethodGet, "/swagger/*any", httpSwagger.WrapHandler)
 
-	logger.Info().Msg("HTML main page initialising...")
-	guiHandler := gui_html.Handler{
+	logger.Info().Msg("GUI initialising...")
+	guiHandler := guihtml.Handler{
 		HtmlRoot: cfg.HTMLRootFolder,
 	}
 	guiHandler.Register(router)
@@ -64,10 +64,10 @@ func (app *Application) Run() {
 }
 
 func (app *Application) startHTTP(IsCORSEnabled bool) {
-	app.logger.Info().Msg("starting HTTP...")
+	app.logger.Info().Msg("Starting HTTP...")
 
 	var listener net.Listener
-	app.logger.Info().Msgf("binding application to host: %s and port: %s", app.cfg.Host, app.cfg.Port)
+	app.logger.Info().Msgf("Binding application to host: %s and port: %s", app.cfg.Host, app.cfg.Port)
 	var err error
 	listener, err = net.Listen("tcp", fmt.Sprintf("%s:%s", app.cfg.Host, app.cfg.Port))
 	if err != nil {
@@ -92,8 +92,8 @@ func (app *Application) startHTTP(IsCORSEnabled bool) {
 	}
 	app.httpServer = &http.Server{
 		Handler:      handler,
-		WriteTimeout: 15 * time.Second,
-		ReadTimeout:  15 * time.Second,
+		WriteTimeout: time.Duration(app.cfg.TimeoutContext) * time.Second,
+		ReadTimeout:  time.Duration(app.cfg.TimeoutContext) * time.Second,
 	}
 
 	app.logger.Info().Msg("Application initialise completely and started.")
@@ -101,7 +101,7 @@ func (app *Application) startHTTP(IsCORSEnabled bool) {
 	if err := app.httpServer.Serve(listener); err != nil {
 		switch {
 		case errors.Is(err, http.ErrServerClosed):
-			app.logger.Warn().Msg("server shutdown.")
+			app.logger.Warn().Err(err).Msg("Server shutdown.")
 		default:
 			app.logger.Fatal().Err(err).Msg("Can't start Server.")
 		}

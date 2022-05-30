@@ -19,7 +19,7 @@ const docTemplate = `{
         "/": {
             "get": {
                 "tags": [
-                    "HTML"
+                    "gui"
                 ],
                 "summary": "Main html page",
                 "responses": {
@@ -35,9 +35,9 @@ const docTemplate = `{
         "/AddUpdateStorageRecord": {
             "post": {
                 "tags": [
-                    "HTML"
+                    "gui"
                 ],
-                "summary": "Getting storage from Encryption Server, through gRPC",
+                "summary": "Update or create storage on Encryption Server, through gRPC",
                 "responses": {
                     "200": {
                         "description": ""
@@ -51,9 +51,9 @@ const docTemplate = `{
         "/DeleteRecord": {
             "post": {
                 "tags": [
-                    "HTML"
+                    "gui"
                 ],
-                "summary": "Getting storage from Encryption Server, through gRPC",
+                "summary": "DeleteRecord by storage from Encryption Server, through gRPC",
                 "responses": {
                     "200": {
                         "description": ""
@@ -67,7 +67,7 @@ const docTemplate = `{
         "/GetStorage": {
             "post": {
                 "tags": [
-                    "HTML"
+                    "gui"
                 ],
                 "summary": "Getting storage from Encryption Server, through gRPC",
                 "responses": {
