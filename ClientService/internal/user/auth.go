@@ -1,21 +1,23 @@
 package user
 
 type authenticate interface {
-	Auth() string
-	GetToken() string
+	Auth()
+	GetToken()
 }
 
-type auth struct {
-	token    string
-	algID    string
-	provider string
+type Auth struct {
+	token      string
+	AlgID      string
+	Provider   string
+	ServerHost string
+	ServerPort string
 }
 
-func (a auth) Auth() string {
+func (a *Auth) Authentificate(login, password string) {
 	//TODO: Send login password to auth server, return token
-	return "token"
+	a.token = "TOKEN"
 }
 
-func (a auth) GetToken() string {
+func (a *Auth) GetToken() string {
 	return a.token
 }

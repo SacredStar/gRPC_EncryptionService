@@ -11,6 +11,7 @@ import (
 type ClientConfig struct {
 	HomeDir        string `env:"HOME"`
 	Port           string `env:"PORT" envDefault:"3000"`
+	Login          string `env:"LOGIN" envDefault:"LOGIN"`
 	Password       string `env:"PASSWORD,unset"`
 	HTMLRootFolder string `env:"HTML_ROOT" envDefault:"./internal/gui/main.html"`
 
@@ -18,10 +19,15 @@ type ClientConfig struct {
 	TimeoutContext int    `env:"TIMEOUT" envDefault:"10"` // * time.Seconds
 	IsCORSEnabled  bool   `env:"CORS" envDefault:"false"`
 	TempFolder     string `env:"TEMP_FOLDER" envDefault:"${HOME}/tmp" envExpand:"true"`
-	LoggerConfig   struct {
+
+	LoggerConfig struct {
 		LogLevel     zerolog.Level `env:"LOGLEVEL" envDefault:"-1"`
 		IsProduction bool          `env:"PRODUCTION"`
 		LogFile      string        `env:"LOG" envDefault:"./internal/logging/log.txt"`
+	}
+	AuthConfig struct {
+		AuthHostName string `env:"AUTHHOST" envDefault:"0.0.0.0"`
+		AuthPort     string `env:"AUTHPORT" envDefault:"3000"`
 	}
 }
 

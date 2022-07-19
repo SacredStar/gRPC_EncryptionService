@@ -1,6 +1,7 @@
 package gui_html
 
 import (
+	"ClientService/internal/user"
 	"html/template"
 	"log"
 	"net/http"
@@ -13,10 +14,12 @@ const (
 	URL_GET_STORAGE               = "/GetStorage"
 	URL_ADD_UPDATE_STORAGE_RECORD = "/AddUpdateStorageRecord"
 	URL_DELETE_RECORD             = "/DeleteRecord"
+	URL_AUTH                      = "/Auth"
 )
 
 type Handler struct {
 	HtmlRoot string
+	User     *user.User
 }
 
 func (h *Handler) Register(router *httprouter.Router) {
@@ -24,6 +27,20 @@ func (h *Handler) Register(router *httprouter.Router) {
 	router.HandlerFunc(http.MethodPost, URL_GET_STORAGE, h.GetStorage)
 	router.HandlerFunc(http.MethodPost, URL_ADD_UPDATE_STORAGE_RECORD, h.AddUpdateStorageRecord)
 	router.HandlerFunc(http.MethodPost, URL_DELETE_RECORD, h.DeleteRecord)
+	router.HandlerFunc(http.MethodPost, URL_AUTH, h.Auth)
+}
+
+// Auth  TODO: change return header codes
+// @Summary Update or create storage on Encryption Server, through gRPC
+// @Tags gui
+// @Success 200
+// @Failure 401
+// @Router /Authentificate [post]
+func (h *Handler) Auth(w http.ResponseWriter, _ *http.Request) {
+	h.User.Auth.Authentificate(h.User.GetUserName(), h.User.GetPassword())
+	if _, err := w.Write([]byte("Hello from Authentificate,token now is:" + h.User.Auth.GetToken())); err != nil {
+		w.WriteHeader(http.StatusUnauthorized)
+	}
 }
 
 // MainPage TODO: Set gui template to config file?

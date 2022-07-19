@@ -1,6 +1,7 @@
 package application
 
 import (
+	"ClientService/internal/user"
 	"context"
 	"errors"
 	"fmt"
@@ -48,8 +49,15 @@ func startRouting(logger *logging.Logger, cfg *Settings.ClientConfig) *httproute
 	router.Handler(http.MethodGet, "/swagger/*any", httpSwagger.WrapHandler)
 
 	logger.Info().Msg("GUI initialising...")
+
+	//TODO: refactor this?
+	User := user.User{}
+	User.SetUserName(cfg.Login)
+	User.SetPassword(cfg.Password)
+
 	guiHandler := guihtml.Handler{
 		HtmlRoot: cfg.HTMLRootFolder,
+		User:     &User,
 	}
 	guiHandler.Register(router)
 
