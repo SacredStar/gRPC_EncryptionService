@@ -50,21 +50,30 @@ func startRouting(logger *logging.Logger, cfg *Settings.ClientConfig) *httproute
 
 	logger.Info().Msg("GUI initialising...")
 
-	//TODO: refactor this?
-	User := user.User{}
-	User.SetUserName(cfg.Login)
-	User.SetPassword(cfg.Password)
+	//Установим значения из конфига в структуру User
+	User := SetUserConfiguration(cfg)
 
 	guiHandler := guihtml.Handler{
 		HtmlRoot: cfg.HTMLRootFolder,
 		User:     &User,
+		Logger:   logger,
 	}
+
 	guiHandler.Register(router)
 
 	logger.Info().Msg("Metrics initializing...")
 	metricHandler := metrics.Handler{}
 	metricHandler.Register(router)
 	return router
+}
+
+func SetUserConfiguration(cfg *Settings.ClientConfig) user.User {
+	User := user.User{}
+	User.SetUserName(cfg.Login)
+	User.SetPassword(cfg.Password)
+	User.SetServerPort(cfg.AuthConfig.AuthPort)
+	User.SetServerHost(cfg.AuthConfig.AuthHostName)
+	return User
 }
 
 func (app *Application) Run() {

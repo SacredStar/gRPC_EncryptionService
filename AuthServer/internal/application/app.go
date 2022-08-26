@@ -3,6 +3,7 @@ package application
 import (
 	"AuthServer/internal/config"
 	"AuthServer/internal/logging"
+	"bufio"
 	"crypto/sha256"
 	"fmt"
 	"net"
@@ -40,19 +41,26 @@ func (app *Application) Run() {
 }
 
 func handleClient(conn net.Conn) {
-	defer conn.Close() // закрываем сокет при выходе из функции
-
-	buf := make([]byte, 32) // буфер для чтения клиентских данных
+	//TODO: переделать на нормальную обработку логина пароля от клиента
 	for {
-		_, err := conn.Read(buf) // читаем из сокета
+		message, err := bufio.NewReader(conn).ReadString('\n')
 		if err != nil {
 			fmt.Println(err)
 			break
 		}
 		//TODO: testing with hasher function
+		fmt.Printf("Печатает буфер:%X\n", message)
 		hasher := sha256.New()
-		hasher.Write(buf)
-
-		conn.Write(hasher.Sum(nil)) // пишем в сокет
+		hasher.Write([]byte(message))
+		result := hasher.Sum(nil)
+		fmt.Printf("Печатаем полученный хеш:%X\n", result)
+		//TODO: Тут должна быть пересылка на сервер, возможно стоит обработать и логин/пароль?
+		if _, err := conn.Write(result); err != nil {
+			fmt.Println("Error,cant send token to connection")
+		} // пишем в сокет
+		if err := conn.Close(); err != nil {
+			fmt.Println("Error,cant close connection")
+		}
+		break
 	}
 }

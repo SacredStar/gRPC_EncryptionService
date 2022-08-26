@@ -108,3 +108,628 @@
 {"l":"info","t":"2022-07-19T14:50:19+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:75","m":"Starting HTTP..."}
 {"l":"info","t":"2022-07-19T14:50:19+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:78","m":"Binding application to host: 0.0.0.0 and port: 3000"}
 {"l":"info","t":"2022-07-19T14:50:19+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:107","m":"Application initialise completely and started."}
+{"l":"info","t":"2022-07-19T15:34:48+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/main.go:17","m":"Starting application..."}
+{"l":"info","t":"2022-07-19T15:34:48+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:31","m":"Starting application..."}
+{"l":"info","t":"2022-07-19T15:34:48+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:32","m":"Starting routing..."}
+{"l":"info","t":"2022-07-19T15:34:48+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:44","m":"Router initialising..."}
+{"l":"info","t":"2022-07-19T15:34:48+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:47","m":"Swagger initialising..."}
+{"l":"info","t":"2022-07-19T15:34:48+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:51","m":"GUI initialising..."}
+{"l":"info","t":"2022-07-19T15:34:48+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:64","m":"Metrics initializing..."}
+{"l":"info","t":"2022-07-19T15:34:48+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:39","m":"Application correctly created"}
+{"l":"info","t":"2022-07-19T15:34:48+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:75","m":"Starting HTTP..."}
+{"l":"info","t":"2022-07-19T15:34:48+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:78","m":"Binding application to host: 0.0.0.0 and port: 3000"}
+{"l":"info","t":"2022-07-19T15:34:48+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:107","m":"Application initialise completely and started."}
+{"l":"info","t":"2022-07-19T15:37:07+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/main.go:17","m":"Starting application..."}
+{"l":"info","t":"2022-07-19T15:37:07+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:31","m":"Starting application..."}
+{"l":"info","t":"2022-07-19T15:37:07+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:32","m":"Starting routing..."}
+{"l":"info","t":"2022-07-19T15:37:07+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:44","m":"Router initialising..."}
+{"l":"info","t":"2022-07-19T15:37:07+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:47","m":"Swagger initialising..."}
+{"l":"info","t":"2022-07-19T15:37:07+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:51","m":"GUI initialising..."}
+{"l":"info","t":"2022-07-19T15:37:07+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:64","m":"Metrics initializing..."}
+{"l":"info","t":"2022-07-19T15:37:07+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:39","m":"Application correctly created"}
+{"l":"info","t":"2022-07-19T15:37:07+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:75","m":"Starting HTTP..."}
+{"l":"info","t":"2022-07-19T15:37:07+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:78","m":"Binding application to host: 0.0.0.0 and port: 3000"}
+{"l":"info","t":"2022-07-19T15:37:07+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:107","m":"Application initialise completely and started."}
+{"l":"info","t":"2022-07-19T15:38:51+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/main.go:17","m":"Starting application..."}
+{"l":"info","t":"2022-07-19T15:38:51+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:31","m":"Starting application..."}
+{"l":"info","t":"2022-07-19T15:38:51+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:32","m":"Starting routing..."}
+{"l":"info","t":"2022-07-19T15:38:51+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:44","m":"Router initialising..."}
+{"l":"info","t":"2022-07-19T15:38:51+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:47","m":"Swagger initialising..."}
+{"l":"info","t":"2022-07-19T15:38:51+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:51","m":"GUI initialising..."}
+{"l":"info","t":"2022-07-19T15:38:51+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:64","m":"Metrics initializing..."}
+{"l":"info","t":"2022-07-19T15:38:51+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:39","m":"Application correctly created"}
+{"l":"info","t":"2022-07-19T15:38:51+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:75","m":"Starting HTTP..."}
+{"l":"info","t":"2022-07-19T15:38:51+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:78","m":"Binding application to host: 0.0.0.0 and port: 3000"}
+{"l":"info","t":"2022-07-19T15:38:51+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:107","m":"Application initialise completely and started."}
+{"l":"info","t":"2022-08-26T15:28:34+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/main.go:17","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T15:28:34+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:31","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T15:28:34+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:32","m":"Starting routing..."}
+{"l":"info","t":"2022-08-26T15:28:34+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:44","m":"Router initialising..."}
+{"l":"info","t":"2022-08-26T15:28:34+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:47","m":"Swagger initialising..."}
+{"l":"info","t":"2022-08-26T15:28:34+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:51","m":"GUI initialising..."}
+{"l":"info","t":"2022-08-26T15:28:34+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:64","m":"Metrics initializing..."}
+{"l":"info","t":"2022-08-26T15:28:34+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:39","m":"Application correctly created"}
+{"l":"info","t":"2022-08-26T15:28:34+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:75","m":"Starting HTTP..."}
+{"l":"info","t":"2022-08-26T15:28:34+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:78","m":"Binding application to host: 0.0.0.0 and port: 3000"}
+{"l":"info","t":"2022-08-26T15:28:34+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:107","m":"Application initialise completely and started."}
+{"l":"info","t":"2022-08-26T15:32:03+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/main.go:17","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T15:32:03+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:31","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T15:32:03+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:32","m":"Starting routing..."}
+{"l":"info","t":"2022-08-26T15:32:03+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:44","m":"Router initialising..."}
+{"l":"info","t":"2022-08-26T15:32:03+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:47","m":"Swagger initialising..."}
+{"l":"info","t":"2022-08-26T15:32:03+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:51","m":"GUI initialising..."}
+{"l":"info","t":"2022-08-26T15:32:03+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:64","m":"Metrics initializing..."}
+{"l":"info","t":"2022-08-26T15:32:03+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:39","m":"Application correctly created"}
+{"l":"info","t":"2022-08-26T15:32:03+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:75","m":"Starting HTTP..."}
+{"l":"info","t":"2022-08-26T15:32:03+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:78","m":"Binding application to host: 0.0.0.0 and port: 3000"}
+{"l":"info","t":"2022-08-26T15:32:03+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:107","m":"Application initialise completely and started."}
+{"l":"info","t":"2022-08-26T15:48:04+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/main.go:17","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T15:48:04+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:31","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T15:48:04+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:32","m":"Starting routing..."}
+{"l":"info","t":"2022-08-26T15:48:04+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:44","m":"Router initialising..."}
+{"l":"info","t":"2022-08-26T15:48:04+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:47","m":"Swagger initialising..."}
+{"l":"info","t":"2022-08-26T15:48:04+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:51","m":"GUI initialising..."}
+{"l":"info","t":"2022-08-26T15:48:04+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:64","m":"Metrics initializing..."}
+{"l":"info","t":"2022-08-26T15:48:04+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:39","m":"Application correctly created"}
+{"l":"info","t":"2022-08-26T15:48:04+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:75","m":"Starting HTTP..."}
+{"l":"info","t":"2022-08-26T15:48:04+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:78","m":"Binding application to host: 0.0.0.0 and port: 3000"}
+{"l":"info","t":"2022-08-26T15:48:04+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:107","m":"Application initialise completely and started."}
+{"l":"info","t":"2022-08-26T15:53:08+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/main.go:17","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T15:53:08+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:31","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T15:53:08+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:32","m":"Starting routing..."}
+{"l":"info","t":"2022-08-26T15:53:08+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:44","m":"Router initialising..."}
+{"l":"info","t":"2022-08-26T15:53:08+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:47","m":"Swagger initialising..."}
+{"l":"info","t":"2022-08-26T15:53:08+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:51","m":"GUI initialising..."}
+{"l":"info","t":"2022-08-26T15:53:08+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:64","m":"Metrics initializing..."}
+{"l":"info","t":"2022-08-26T15:53:08+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:39","m":"Application correctly created"}
+{"l":"info","t":"2022-08-26T15:53:08+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:75","m":"Starting HTTP..."}
+{"l":"info","t":"2022-08-26T15:53:08+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:78","m":"Binding application to host: 0.0.0.0 and port: 3000"}
+{"l":"info","t":"2022-08-26T15:53:08+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:107","m":"Application initialise completely and started."}
+{"l":"info","t":"2022-08-26T15:54:20+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/main.go:17","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T15:54:20+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:31","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T15:54:20+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:32","m":"Starting routing..."}
+{"l":"info","t":"2022-08-26T15:54:20+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:44","m":"Router initialising..."}
+{"l":"info","t":"2022-08-26T15:54:20+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:47","m":"Swagger initialising..."}
+{"l":"info","t":"2022-08-26T15:54:20+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:51","m":"GUI initialising..."}
+{"l":"info","t":"2022-08-26T15:54:20+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:64","m":"Metrics initializing..."}
+{"l":"info","t":"2022-08-26T15:54:20+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:39","m":"Application correctly created"}
+{"l":"info","t":"2022-08-26T15:54:20+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:75","m":"Starting HTTP..."}
+{"l":"info","t":"2022-08-26T15:54:20+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:78","m":"Binding application to host: 0.0.0.0 and port: 3000"}
+{"l":"info","t":"2022-08-26T15:54:20+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:107","m":"Application initialise completely and started."}
+{"l":"info","t":"2022-08-26T15:55:54+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/main.go:17","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T15:55:54+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:31","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T15:55:54+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:32","m":"Starting routing..."}
+{"l":"info","t":"2022-08-26T15:55:54+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:44","m":"Router initialising..."}
+{"l":"info","t":"2022-08-26T15:55:54+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:47","m":"Swagger initialising..."}
+{"l":"info","t":"2022-08-26T15:55:54+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:51","m":"GUI initialising..."}
+{"l":"info","t":"2022-08-26T15:55:54+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:64","m":"Metrics initializing..."}
+{"l":"info","t":"2022-08-26T15:55:54+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:39","m":"Application correctly created"}
+{"l":"info","t":"2022-08-26T15:55:54+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:75","m":"Starting HTTP..."}
+{"l":"info","t":"2022-08-26T15:55:54+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:78","m":"Binding application to host: 0.0.0.0 and port: 3000"}
+{"l":"info","t":"2022-08-26T15:55:54+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:107","m":"Application initialise completely and started."}
+{"l":"info","t":"2022-08-26T16:00:29+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/main.go:17","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T16:00:29+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:31","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T16:00:29+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:32","m":"Starting routing..."}
+{"l":"info","t":"2022-08-26T16:00:29+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:44","m":"Router initialising..."}
+{"l":"info","t":"2022-08-26T16:00:29+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:47","m":"Swagger initialising..."}
+{"l":"info","t":"2022-08-26T16:00:29+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:51","m":"GUI initialising..."}
+{"l":"info","t":"2022-08-26T16:00:29+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:64","m":"Metrics initializing..."}
+{"l":"info","t":"2022-08-26T16:00:29+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:39","m":"Application correctly created"}
+{"l":"info","t":"2022-08-26T16:00:29+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:75","m":"Starting HTTP..."}
+{"l":"info","t":"2022-08-26T16:00:29+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:78","m":"Binding application to host: 0.0.0.0 and port: 3000"}
+{"l":"info","t":"2022-08-26T16:00:29+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:107","m":"Application initialise completely and started."}
+{"l":"info","t":"2022-08-26T16:04:32+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/main.go:17","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T16:04:32+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:31","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T16:04:32+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:32","m":"Starting routing..."}
+{"l":"info","t":"2022-08-26T16:04:32+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:44","m":"Router initialising..."}
+{"l":"info","t":"2022-08-26T16:04:32+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:47","m":"Swagger initialising..."}
+{"l":"info","t":"2022-08-26T16:04:32+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:51","m":"GUI initialising..."}
+{"l":"info","t":"2022-08-26T16:04:32+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:64","m":"Metrics initializing..."}
+{"l":"info","t":"2022-08-26T16:04:32+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:39","m":"Application correctly created"}
+{"l":"info","t":"2022-08-26T16:04:32+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:75","m":"Starting HTTP..."}
+{"l":"info","t":"2022-08-26T16:04:32+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:78","m":"Binding application to host: 0.0.0.0 and port: 3000"}
+{"l":"info","t":"2022-08-26T16:04:32+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:107","m":"Application initialise completely and started."}
+{"l":"info","t":"2022-08-26T16:12:10+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/main.go:17","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T16:12:10+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:31","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T16:12:10+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:32","m":"Starting routing..."}
+{"l":"info","t":"2022-08-26T16:12:10+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:44","m":"Router initialising..."}
+{"l":"info","t":"2022-08-26T16:12:10+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:47","m":"Swagger initialising..."}
+{"l":"info","t":"2022-08-26T16:12:10+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:51","m":"GUI initialising..."}
+{"l":"info","t":"2022-08-26T16:12:10+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:64","m":"Metrics initializing..."}
+{"l":"info","t":"2022-08-26T16:12:10+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:39","m":"Application correctly created"}
+{"l":"info","t":"2022-08-26T16:12:10+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:75","m":"Starting HTTP..."}
+{"l":"info","t":"2022-08-26T16:12:10+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:78","m":"Binding application to host: 0.0.0.0 and port: 3000"}
+{"l":"info","t":"2022-08-26T16:12:10+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:107","m":"Application initialise completely and started."}
+{"l":"info","t":"2022-08-26T16:15:24+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/main.go:17","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T16:15:24+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:31","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T16:15:24+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:32","m":"Starting routing..."}
+{"l":"info","t":"2022-08-26T16:15:24+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:44","m":"Router initialising..."}
+{"l":"info","t":"2022-08-26T16:15:24+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:47","m":"Swagger initialising..."}
+{"l":"info","t":"2022-08-26T16:15:24+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:51","m":"GUI initialising..."}
+{"l":"info","t":"2022-08-26T16:15:24+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:64","m":"Metrics initializing..."}
+{"l":"info","t":"2022-08-26T16:15:24+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:39","m":"Application correctly created"}
+{"l":"info","t":"2022-08-26T16:15:24+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:75","m":"Starting HTTP..."}
+{"l":"info","t":"2022-08-26T16:15:24+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:78","m":"Binding application to host: 0.0.0.0 and port: 3000"}
+{"l":"info","t":"2022-08-26T16:15:24+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:107","m":"Application initialise completely and started."}
+{"l":"info","t":"2022-08-26T16:15:57+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/main.go:17","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T16:15:57+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:31","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T16:15:57+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:32","m":"Starting routing..."}
+{"l":"info","t":"2022-08-26T16:15:57+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:44","m":"Router initialising..."}
+{"l":"info","t":"2022-08-26T16:15:57+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:47","m":"Swagger initialising..."}
+{"l":"info","t":"2022-08-26T16:15:57+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:51","m":"GUI initialising..."}
+{"l":"info","t":"2022-08-26T16:15:57+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:64","m":"Metrics initializing..."}
+{"l":"info","t":"2022-08-26T16:15:57+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:39","m":"Application correctly created"}
+{"l":"info","t":"2022-08-26T16:15:57+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:75","m":"Starting HTTP..."}
+{"l":"info","t":"2022-08-26T16:15:57+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:78","m":"Binding application to host: 0.0.0.0 and port: 3000"}
+{"l":"info","t":"2022-08-26T16:15:57+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:107","m":"Application initialise completely and started."}
+{"l":"info","t":"2022-08-26T16:16:43+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/main.go:17","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T16:16:43+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:31","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T16:16:43+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:32","m":"Starting routing..."}
+{"l":"info","t":"2022-08-26T16:16:43+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:44","m":"Router initialising..."}
+{"l":"info","t":"2022-08-26T16:16:43+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:47","m":"Swagger initialising..."}
+{"l":"info","t":"2022-08-26T16:16:43+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:51","m":"GUI initialising..."}
+{"l":"info","t":"2022-08-26T16:16:43+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:64","m":"Metrics initializing..."}
+{"l":"info","t":"2022-08-26T16:16:43+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:39","m":"Application correctly created"}
+{"l":"info","t":"2022-08-26T16:16:43+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:75","m":"Starting HTTP..."}
+{"l":"info","t":"2022-08-26T16:16:43+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:78","m":"Binding application to host: 0.0.0.0 and port: 3000"}
+{"l":"info","t":"2022-08-26T16:16:43+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:107","m":"Application initialise completely and started."}
+{"l":"info","t":"2022-08-26T16:16:51+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/main.go:17","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T16:16:51+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:31","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T16:16:51+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:32","m":"Starting routing..."}
+{"l":"info","t":"2022-08-26T16:16:51+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:44","m":"Router initialising..."}
+{"l":"info","t":"2022-08-26T16:16:51+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:47","m":"Swagger initialising..."}
+{"l":"info","t":"2022-08-26T16:16:51+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:51","m":"GUI initialising..."}
+{"l":"info","t":"2022-08-26T16:16:51+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:64","m":"Metrics initializing..."}
+{"l":"info","t":"2022-08-26T16:16:51+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:39","m":"Application correctly created"}
+{"l":"info","t":"2022-08-26T16:16:51+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:75","m":"Starting HTTP..."}
+{"l":"info","t":"2022-08-26T16:16:51+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:78","m":"Binding application to host: 0.0.0.0 and port: 3000"}
+{"l":"info","t":"2022-08-26T16:16:51+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:107","m":"Application initialise completely and started."}
+{"l":"info","t":"2022-08-26T16:19:43+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/main.go:17","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T16:19:43+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:31","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T16:19:43+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:32","m":"Starting routing..."}
+{"l":"info","t":"2022-08-26T16:19:43+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:44","m":"Router initialising..."}
+{"l":"info","t":"2022-08-26T16:19:43+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:47","m":"Swagger initialising..."}
+{"l":"info","t":"2022-08-26T16:19:43+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:51","m":"GUI initialising..."}
+{"l":"info","t":"2022-08-26T16:19:43+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:64","m":"Metrics initializing..."}
+{"l":"info","t":"2022-08-26T16:19:43+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:39","m":"Application correctly created"}
+{"l":"info","t":"2022-08-26T16:19:43+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:75","m":"Starting HTTP..."}
+{"l":"info","t":"2022-08-26T16:19:43+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:78","m":"Binding application to host: 0.0.0.0 and port: 3000"}
+{"l":"info","t":"2022-08-26T16:19:43+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:107","m":"Application initialise completely and started."}
+{"l":"info","t":"2022-08-26T16:22:04+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/main.go:17","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T16:22:04+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:31","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T16:22:04+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:32","m":"Starting routing..."}
+{"l":"info","t":"2022-08-26T16:22:04+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:44","m":"Router initialising..."}
+{"l":"info","t":"2022-08-26T16:22:04+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:47","m":"Swagger initialising..."}
+{"l":"info","t":"2022-08-26T16:22:04+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:51","m":"GUI initialising..."}
+{"l":"info","t":"2022-08-26T16:22:04+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:64","m":"Metrics initializing..."}
+{"l":"info","t":"2022-08-26T16:22:04+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:39","m":"Application correctly created"}
+{"l":"info","t":"2022-08-26T16:22:04+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:75","m":"Starting HTTP..."}
+{"l":"info","t":"2022-08-26T16:22:04+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:78","m":"Binding application to host: 0.0.0.0 and port: 3000"}
+{"l":"info","t":"2022-08-26T16:22:04+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:107","m":"Application initialise completely and started."}
+{"l":"info","t":"2022-08-26T16:22:41+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/main.go:17","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T16:22:41+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:31","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T16:22:41+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:32","m":"Starting routing..."}
+{"l":"info","t":"2022-08-26T16:22:41+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:44","m":"Router initialising..."}
+{"l":"info","t":"2022-08-26T16:22:41+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:47","m":"Swagger initialising..."}
+{"l":"info","t":"2022-08-26T16:22:41+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:51","m":"GUI initialising..."}
+{"l":"info","t":"2022-08-26T16:22:41+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:64","m":"Metrics initializing..."}
+{"l":"info","t":"2022-08-26T16:22:41+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:39","m":"Application correctly created"}
+{"l":"info","t":"2022-08-26T16:22:41+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:75","m":"Starting HTTP..."}
+{"l":"info","t":"2022-08-26T16:22:41+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:78","m":"Binding application to host: 0.0.0.0 and port: 3000"}
+{"l":"info","t":"2022-08-26T16:22:41+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:107","m":"Application initialise completely and started."}
+{"l":"info","t":"2022-08-26T16:24:23+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/main.go:17","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T16:24:23+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:31","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T16:24:23+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:32","m":"Starting routing..."}
+{"l":"info","t":"2022-08-26T16:24:23+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:44","m":"Router initialising..."}
+{"l":"info","t":"2022-08-26T16:24:23+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:47","m":"Swagger initialising..."}
+{"l":"info","t":"2022-08-26T16:24:23+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:51","m":"GUI initialising..."}
+{"l":"info","t":"2022-08-26T16:24:23+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:64","m":"Metrics initializing..."}
+{"l":"info","t":"2022-08-26T16:24:23+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:39","m":"Application correctly created"}
+{"l":"info","t":"2022-08-26T16:24:23+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:75","m":"Starting HTTP..."}
+{"l":"info","t":"2022-08-26T16:24:23+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:78","m":"Binding application to host: 0.0.0.0 and port: 3000"}
+{"l":"info","t":"2022-08-26T16:24:23+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:107","m":"Application initialise completely and started."}
+{"l":"info","t":"2022-08-26T16:26:38+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/main.go:17","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T16:26:38+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:31","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T16:26:38+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:32","m":"Starting routing..."}
+{"l":"info","t":"2022-08-26T16:26:38+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:44","m":"Router initialising..."}
+{"l":"info","t":"2022-08-26T16:26:38+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:47","m":"Swagger initialising..."}
+{"l":"info","t":"2022-08-26T16:26:38+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:51","m":"GUI initialising..."}
+{"l":"info","t":"2022-08-26T16:26:38+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:64","m":"Metrics initializing..."}
+{"l":"info","t":"2022-08-26T16:26:38+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:39","m":"Application correctly created"}
+{"l":"info","t":"2022-08-26T16:26:38+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:75","m":"Starting HTTP..."}
+{"l":"info","t":"2022-08-26T16:26:38+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:78","m":"Binding application to host: 0.0.0.0 and port: 3000"}
+{"l":"info","t":"2022-08-26T16:26:38+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:107","m":"Application initialise completely and started."}
+{"l":"info","t":"2022-08-26T16:26:45+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/main.go:17","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T16:26:45+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:31","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T16:26:45+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:32","m":"Starting routing..."}
+{"l":"info","t":"2022-08-26T16:26:45+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:44","m":"Router initialising..."}
+{"l":"info","t":"2022-08-26T16:26:45+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:47","m":"Swagger initialising..."}
+{"l":"info","t":"2022-08-26T16:26:45+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:51","m":"GUI initialising..."}
+{"l":"info","t":"2022-08-26T16:26:45+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:64","m":"Metrics initializing..."}
+{"l":"info","t":"2022-08-26T16:26:45+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:39","m":"Application correctly created"}
+{"l":"info","t":"2022-08-26T16:26:45+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:75","m":"Starting HTTP..."}
+{"l":"info","t":"2022-08-26T16:26:45+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:78","m":"Binding application to host: 0.0.0.0 and port: 3000"}
+{"l":"info","t":"2022-08-26T16:26:45+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:107","m":"Application initialise completely and started."}
+{"l":"info","t":"2022-08-26T16:27:51+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/main.go:17","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T16:27:51+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:31","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T16:27:51+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:32","m":"Starting routing..."}
+{"l":"info","t":"2022-08-26T16:27:51+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:44","m":"Router initialising..."}
+{"l":"info","t":"2022-08-26T16:27:51+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:47","m":"Swagger initialising..."}
+{"l":"info","t":"2022-08-26T16:27:51+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:51","m":"GUI initialising..."}
+{"l":"info","t":"2022-08-26T16:27:51+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:64","m":"Metrics initializing..."}
+{"l":"info","t":"2022-08-26T16:27:51+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:39","m":"Application correctly created"}
+{"l":"info","t":"2022-08-26T16:27:51+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:75","m":"Starting HTTP..."}
+{"l":"info","t":"2022-08-26T16:27:51+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:78","m":"Binding application to host: 0.0.0.0 and port: 3000"}
+{"l":"info","t":"2022-08-26T16:27:51+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:107","m":"Application initialise completely and started."}
+{"l":"info","t":"2022-08-26T16:29:11+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/main.go:17","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T16:29:11+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:31","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T16:29:11+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:32","m":"Starting routing..."}
+{"l":"info","t":"2022-08-26T16:29:11+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:44","m":"Router initialising..."}
+{"l":"info","t":"2022-08-26T16:29:11+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:47","m":"Swagger initialising..."}
+{"l":"info","t":"2022-08-26T16:29:11+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:51","m":"GUI initialising..."}
+{"l":"info","t":"2022-08-26T16:29:11+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:64","m":"Metrics initializing..."}
+{"l":"info","t":"2022-08-26T16:29:11+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:39","m":"Application correctly created"}
+{"l":"info","t":"2022-08-26T16:29:11+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:75","m":"Starting HTTP..."}
+{"l":"info","t":"2022-08-26T16:29:11+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:78","m":"Binding application to host: 0.0.0.0 and port: 3000"}
+{"l":"info","t":"2022-08-26T16:29:11+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:107","m":"Application initialise completely and started."}
+{"l":"info","t":"2022-08-26T16:29:21+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/main.go:17","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T16:29:21+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:31","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T16:29:21+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:32","m":"Starting routing..."}
+{"l":"info","t":"2022-08-26T16:29:21+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:44","m":"Router initialising..."}
+{"l":"info","t":"2022-08-26T16:29:21+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:47","m":"Swagger initialising..."}
+{"l":"info","t":"2022-08-26T16:29:21+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:51","m":"GUI initialising..."}
+{"l":"info","t":"2022-08-26T16:29:21+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:64","m":"Metrics initializing..."}
+{"l":"info","t":"2022-08-26T16:29:21+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:39","m":"Application correctly created"}
+{"l":"info","t":"2022-08-26T16:29:21+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:75","m":"Starting HTTP..."}
+{"l":"info","t":"2022-08-26T16:29:21+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:78","m":"Binding application to host: 0.0.0.0 and port: 3000"}
+{"l":"info","t":"2022-08-26T16:29:21+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:107","m":"Application initialise completely and started."}
+{"l":"info","t":"2022-08-26T16:32:15+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/main.go:17","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T16:32:15+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:31","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T16:32:15+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:32","m":"Starting routing..."}
+{"l":"info","t":"2022-08-26T16:32:15+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:44","m":"Router initialising..."}
+{"l":"info","t":"2022-08-26T16:32:15+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:47","m":"Swagger initialising..."}
+{"l":"info","t":"2022-08-26T16:32:15+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:51","m":"GUI initialising..."}
+{"l":"info","t":"2022-08-26T16:32:15+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:64","m":"Metrics initializing..."}
+{"l":"info","t":"2022-08-26T16:32:15+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:39","m":"Application correctly created"}
+{"l":"info","t":"2022-08-26T16:32:15+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:75","m":"Starting HTTP..."}
+{"l":"info","t":"2022-08-26T16:32:15+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:78","m":"Binding application to host: 0.0.0.0 and port: 3000"}
+{"l":"info","t":"2022-08-26T16:32:15+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:107","m":"Application initialise completely and started."}
+{"l":"info","t":"2022-08-26T16:33:06+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/main.go:17","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T16:33:06+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:31","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T16:33:06+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:32","m":"Starting routing..."}
+{"l":"info","t":"2022-08-26T16:33:06+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:44","m":"Router initialising..."}
+{"l":"info","t":"2022-08-26T16:33:06+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:47","m":"Swagger initialising..."}
+{"l":"info","t":"2022-08-26T16:33:06+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:51","m":"GUI initialising..."}
+{"l":"info","t":"2022-08-26T16:33:06+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:64","m":"Metrics initializing..."}
+{"l":"info","t":"2022-08-26T16:33:06+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:39","m":"Application correctly created"}
+{"l":"info","t":"2022-08-26T16:33:06+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:75","m":"Starting HTTP..."}
+{"l":"info","t":"2022-08-26T16:33:06+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:78","m":"Binding application to host: 0.0.0.0 and port: 3000"}
+{"l":"info","t":"2022-08-26T16:33:06+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:107","m":"Application initialise completely and started."}
+{"l":"info","t":"2022-08-26T16:34:27+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/main.go:17","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T16:34:27+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:31","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T16:34:27+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:32","m":"Starting routing..."}
+{"l":"info","t":"2022-08-26T16:34:27+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:44","m":"Router initialising..."}
+{"l":"info","t":"2022-08-26T16:34:27+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:47","m":"Swagger initialising..."}
+{"l":"info","t":"2022-08-26T16:34:27+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:51","m":"GUI initialising..."}
+{"l":"info","t":"2022-08-26T16:34:27+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:64","m":"Metrics initializing..."}
+{"l":"info","t":"2022-08-26T16:34:27+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:39","m":"Application correctly created"}
+{"l":"info","t":"2022-08-26T16:34:27+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:75","m":"Starting HTTP..."}
+{"l":"info","t":"2022-08-26T16:34:27+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:78","m":"Binding application to host: 0.0.0.0 and port: 3000"}
+{"l":"info","t":"2022-08-26T16:34:27+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:107","m":"Application initialise completely and started."}
+{"l":"info","t":"2022-08-26T16:35:42+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/main.go:17","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T16:35:42+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:31","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T16:35:42+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:32","m":"Starting routing..."}
+{"l":"info","t":"2022-08-26T16:35:42+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:44","m":"Router initialising..."}
+{"l":"info","t":"2022-08-26T16:35:42+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:47","m":"Swagger initialising..."}
+{"l":"info","t":"2022-08-26T16:35:42+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:51","m":"GUI initialising..."}
+{"l":"info","t":"2022-08-26T16:35:42+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:64","m":"Metrics initializing..."}
+{"l":"info","t":"2022-08-26T16:35:42+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:39","m":"Application correctly created"}
+{"l":"info","t":"2022-08-26T16:35:42+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:75","m":"Starting HTTP..."}
+{"l":"info","t":"2022-08-26T16:35:42+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:78","m":"Binding application to host: 0.0.0.0 and port: 3000"}
+{"l":"info","t":"2022-08-26T16:35:42+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:107","m":"Application initialise completely and started."}
+{"l":"info","t":"2022-08-26T16:37:32+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/main.go:17","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T16:37:32+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:31","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T16:37:32+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:32","m":"Starting routing..."}
+{"l":"info","t":"2022-08-26T16:37:32+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:44","m":"Router initialising..."}
+{"l":"info","t":"2022-08-26T16:37:32+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:47","m":"Swagger initialising..."}
+{"l":"info","t":"2022-08-26T16:37:32+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:51","m":"GUI initialising..."}
+{"l":"info","t":"2022-08-26T16:37:32+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:64","m":"Metrics initializing..."}
+{"l":"info","t":"2022-08-26T16:37:32+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:39","m":"Application correctly created"}
+{"l":"info","t":"2022-08-26T16:37:32+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:75","m":"Starting HTTP..."}
+{"l":"info","t":"2022-08-26T16:37:32+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:78","m":"Binding application to host: 0.0.0.0 and port: 3000"}
+{"l":"info","t":"2022-08-26T16:37:32+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:107","m":"Application initialise completely and started."}
+{"l":"info","t":"2022-08-26T16:38:58+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/main.go:17","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T16:38:58+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:31","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T16:38:58+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:32","m":"Starting routing..."}
+{"l":"info","t":"2022-08-26T16:38:58+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:44","m":"Router initialising..."}
+{"l":"info","t":"2022-08-26T16:38:58+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:47","m":"Swagger initialising..."}
+{"l":"info","t":"2022-08-26T16:38:58+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:51","m":"GUI initialising..."}
+{"l":"info","t":"2022-08-26T16:38:58+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:64","m":"Metrics initializing..."}
+{"l":"info","t":"2022-08-26T16:38:58+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:39","m":"Application correctly created"}
+{"l":"info","t":"2022-08-26T16:38:58+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:75","m":"Starting HTTP..."}
+{"l":"info","t":"2022-08-26T16:38:58+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:78","m":"Binding application to host: 0.0.0.0 and port: 3000"}
+{"l":"info","t":"2022-08-26T16:38:58+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:107","m":"Application initialise completely and started."}
+{"l":"info","t":"2022-08-26T16:39:31+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/main.go:17","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T16:39:31+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:31","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T16:39:31+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:32","m":"Starting routing..."}
+{"l":"info","t":"2022-08-26T16:39:31+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:44","m":"Router initialising..."}
+{"l":"info","t":"2022-08-26T16:39:31+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:47","m":"Swagger initialising..."}
+{"l":"info","t":"2022-08-26T16:39:31+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:51","m":"GUI initialising..."}
+{"l":"info","t":"2022-08-26T16:39:31+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:64","m":"Metrics initializing..."}
+{"l":"info","t":"2022-08-26T16:39:31+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:39","m":"Application correctly created"}
+{"l":"info","t":"2022-08-26T16:39:31+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:75","m":"Starting HTTP..."}
+{"l":"info","t":"2022-08-26T16:39:31+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:78","m":"Binding application to host: 0.0.0.0 and port: 3000"}
+{"l":"info","t":"2022-08-26T16:39:31+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:107","m":"Application initialise completely and started."}
+{"l":"info","t":"2022-08-26T16:40:32+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/main.go:17","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T16:40:32+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:31","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T16:40:32+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:32","m":"Starting routing..."}
+{"l":"info","t":"2022-08-26T16:40:32+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:44","m":"Router initialising..."}
+{"l":"info","t":"2022-08-26T16:40:32+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:47","m":"Swagger initialising..."}
+{"l":"info","t":"2022-08-26T16:40:32+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:51","m":"GUI initialising..."}
+{"l":"info","t":"2022-08-26T16:40:32+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:64","m":"Metrics initializing..."}
+{"l":"info","t":"2022-08-26T16:40:32+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:39","m":"Application correctly created"}
+{"l":"info","t":"2022-08-26T16:40:32+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:75","m":"Starting HTTP..."}
+{"l":"info","t":"2022-08-26T16:40:32+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:78","m":"Binding application to host: 0.0.0.0 and port: 3000"}
+{"l":"info","t":"2022-08-26T16:40:32+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:107","m":"Application initialise completely and started."}
+{"l":"info","t":"2022-08-26T16:41:27+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/main.go:17","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T16:41:27+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:31","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T16:41:27+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:32","m":"Starting routing..."}
+{"l":"info","t":"2022-08-26T16:41:27+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:44","m":"Router initialising..."}
+{"l":"info","t":"2022-08-26T16:41:27+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:47","m":"Swagger initialising..."}
+{"l":"info","t":"2022-08-26T16:41:27+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:51","m":"GUI initialising..."}
+{"l":"info","t":"2022-08-26T16:41:27+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:64","m":"Metrics initializing..."}
+{"l":"info","t":"2022-08-26T16:41:27+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:39","m":"Application correctly created"}
+{"l":"info","t":"2022-08-26T16:41:27+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:75","m":"Starting HTTP..."}
+{"l":"info","t":"2022-08-26T16:41:27+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:78","m":"Binding application to host: 0.0.0.0 and port: 3000"}
+{"l":"info","t":"2022-08-26T16:41:27+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:107","m":"Application initialise completely and started."}
+{"l":"info","t":"2022-08-26T16:45:24+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/main.go:17","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T16:45:24+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:31","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T16:45:24+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:32","m":"Starting routing..."}
+{"l":"info","t":"2022-08-26T16:45:24+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:44","m":"Router initialising..."}
+{"l":"info","t":"2022-08-26T16:45:24+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:47","m":"Swagger initialising..."}
+{"l":"info","t":"2022-08-26T16:45:24+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:51","m":"GUI initialising..."}
+{"l":"info","t":"2022-08-26T16:45:24+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:64","m":"Metrics initializing..."}
+{"l":"info","t":"2022-08-26T16:45:24+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:39","m":"Application correctly created"}
+{"l":"info","t":"2022-08-26T16:45:24+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:75","m":"Starting HTTP..."}
+{"l":"info","t":"2022-08-26T16:45:24+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:78","m":"Binding application to host: 0.0.0.0 and port: 3000"}
+{"l":"info","t":"2022-08-26T16:45:24+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:107","m":"Application initialise completely and started."}
+{"l":"info","t":"2022-08-26T16:46:02+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/main.go:17","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T16:46:02+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:31","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T16:46:02+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:32","m":"Starting routing..."}
+{"l":"info","t":"2022-08-26T16:46:02+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:44","m":"Router initialising..."}
+{"l":"info","t":"2022-08-26T16:46:02+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:47","m":"Swagger initialising..."}
+{"l":"info","t":"2022-08-26T16:46:02+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:51","m":"GUI initialising..."}
+{"l":"info","t":"2022-08-26T16:46:02+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:64","m":"Metrics initializing..."}
+{"l":"info","t":"2022-08-26T16:46:02+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:39","m":"Application correctly created"}
+{"l":"info","t":"2022-08-26T16:46:02+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:75","m":"Starting HTTP..."}
+{"l":"info","t":"2022-08-26T16:46:02+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:78","m":"Binding application to host: 0.0.0.0 and port: 3000"}
+{"l":"info","t":"2022-08-26T16:46:02+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:107","m":"Application initialise completely and started."}
+{"l":"info","t":"2022-08-26T16:46:31+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/main.go:17","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T16:46:31+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:31","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T16:46:31+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:32","m":"Starting routing..."}
+{"l":"info","t":"2022-08-26T16:46:31+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:44","m":"Router initialising..."}
+{"l":"info","t":"2022-08-26T16:46:31+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:47","m":"Swagger initialising..."}
+{"l":"info","t":"2022-08-26T16:46:31+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:51","m":"GUI initialising..."}
+{"l":"info","t":"2022-08-26T16:46:31+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:64","m":"Metrics initializing..."}
+{"l":"info","t":"2022-08-26T16:46:31+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:39","m":"Application correctly created"}
+{"l":"info","t":"2022-08-26T16:46:31+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:75","m":"Starting HTTP..."}
+{"l":"info","t":"2022-08-26T16:46:31+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:78","m":"Binding application to host: 0.0.0.0 and port: 3000"}
+{"l":"info","t":"2022-08-26T16:46:31+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:107","m":"Application initialise completely and started."}
+{"l":"info","t":"2022-08-26T16:47:58+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/main.go:17","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T16:47:58+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:31","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T16:47:58+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:32","m":"Starting routing..."}
+{"l":"info","t":"2022-08-26T16:47:58+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:44","m":"Router initialising..."}
+{"l":"info","t":"2022-08-26T16:47:58+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:47","m":"Swagger initialising..."}
+{"l":"info","t":"2022-08-26T16:47:58+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:51","m":"GUI initialising..."}
+{"l":"info","t":"2022-08-26T16:47:58+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:64","m":"Metrics initializing..."}
+{"l":"info","t":"2022-08-26T16:47:58+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:39","m":"Application correctly created"}
+{"l":"info","t":"2022-08-26T16:47:58+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:75","m":"Starting HTTP..."}
+{"l":"info","t":"2022-08-26T16:47:58+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:78","m":"Binding application to host: 0.0.0.0 and port: 3000"}
+{"l":"info","t":"2022-08-26T16:47:58+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:107","m":"Application initialise completely and started."}
+{"l":"info","t":"2022-08-26T16:48:26+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/main.go:17","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T16:48:26+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:31","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T16:48:26+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:32","m":"Starting routing..."}
+{"l":"info","t":"2022-08-26T16:48:26+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:44","m":"Router initialising..."}
+{"l":"info","t":"2022-08-26T16:48:26+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:47","m":"Swagger initialising..."}
+{"l":"info","t":"2022-08-26T16:48:26+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:51","m":"GUI initialising..."}
+{"l":"info","t":"2022-08-26T16:48:26+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:64","m":"Metrics initializing..."}
+{"l":"info","t":"2022-08-26T16:48:26+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:39","m":"Application correctly created"}
+{"l":"info","t":"2022-08-26T16:48:26+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:75","m":"Starting HTTP..."}
+{"l":"info","t":"2022-08-26T16:48:26+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:78","m":"Binding application to host: 0.0.0.0 and port: 3000"}
+{"l":"info","t":"2022-08-26T16:48:26+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:107","m":"Application initialise completely and started."}
+{"l":"info","t":"2022-08-26T16:50:07+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/main.go:17","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T16:50:07+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:31","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T16:50:07+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:32","m":"Starting routing..."}
+{"l":"info","t":"2022-08-26T16:50:07+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:44","m":"Router initialising..."}
+{"l":"info","t":"2022-08-26T16:50:07+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:47","m":"Swagger initialising..."}
+{"l":"info","t":"2022-08-26T16:50:07+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:51","m":"GUI initialising..."}
+{"l":"info","t":"2022-08-26T16:50:07+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:64","m":"Metrics initializing..."}
+{"l":"info","t":"2022-08-26T16:50:07+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:39","m":"Application correctly created"}
+{"l":"info","t":"2022-08-26T16:50:07+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:75","m":"Starting HTTP..."}
+{"l":"info","t":"2022-08-26T16:50:07+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:78","m":"Binding application to host: 0.0.0.0 and port: 3000"}
+{"l":"info","t":"2022-08-26T16:50:07+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:107","m":"Application initialise completely and started."}
+{"l":"info","t":"2022-08-26T16:50:56+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/main.go:17","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T16:50:56+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:31","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T16:50:56+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:32","m":"Starting routing..."}
+{"l":"info","t":"2022-08-26T16:50:56+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:44","m":"Router initialising..."}
+{"l":"info","t":"2022-08-26T16:50:56+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:47","m":"Swagger initialising..."}
+{"l":"info","t":"2022-08-26T16:50:56+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:51","m":"GUI initialising..."}
+{"l":"info","t":"2022-08-26T16:50:56+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:64","m":"Metrics initializing..."}
+{"l":"info","t":"2022-08-26T16:50:56+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:39","m":"Application correctly created"}
+{"l":"info","t":"2022-08-26T16:50:56+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:75","m":"Starting HTTP..."}
+{"l":"info","t":"2022-08-26T16:50:56+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:78","m":"Binding application to host: 0.0.0.0 and port: 3000"}
+{"l":"info","t":"2022-08-26T16:50:56+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:107","m":"Application initialise completely and started."}
+{"l":"info","t":"2022-08-26T16:53:44+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/main.go:17","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T16:53:44+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:31","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T16:53:44+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:32","m":"Starting routing..."}
+{"l":"info","t":"2022-08-26T16:53:44+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:44","m":"Router initialising..."}
+{"l":"info","t":"2022-08-26T16:53:44+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:47","m":"Swagger initialising..."}
+{"l":"info","t":"2022-08-26T16:53:44+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:51","m":"GUI initialising..."}
+{"l":"info","t":"2022-08-26T16:53:44+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:64","m":"Metrics initializing..."}
+{"l":"info","t":"2022-08-26T16:53:44+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:39","m":"Application correctly created"}
+{"l":"info","t":"2022-08-26T16:53:44+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:75","m":"Starting HTTP..."}
+{"l":"info","t":"2022-08-26T16:53:44+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:78","m":"Binding application to host: 0.0.0.0 and port: 3000"}
+{"l":"info","t":"2022-08-26T16:53:44+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:107","m":"Application initialise completely and started."}
+{"l":"info","t":"2022-08-26T16:55:29+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/main.go:17","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T16:55:29+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:31","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T16:55:29+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:32","m":"Starting routing..."}
+{"l":"info","t":"2022-08-26T16:55:29+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:44","m":"Router initialising..."}
+{"l":"info","t":"2022-08-26T16:55:29+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:47","m":"Swagger initialising..."}
+{"l":"info","t":"2022-08-26T16:55:29+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:51","m":"GUI initialising..."}
+{"l":"info","t":"2022-08-26T16:55:29+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:64","m":"Metrics initializing..."}
+{"l":"info","t":"2022-08-26T16:55:29+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:39","m":"Application correctly created"}
+{"l":"info","t":"2022-08-26T16:55:29+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:75","m":"Starting HTTP..."}
+{"l":"info","t":"2022-08-26T16:55:29+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:78","m":"Binding application to host: 0.0.0.0 and port: 3000"}
+{"l":"info","t":"2022-08-26T16:55:29+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:107","m":"Application initialise completely and started."}
+{"l":"info","t":"2022-08-26T16:59:04+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/main.go:17","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T16:59:04+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:31","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T16:59:04+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:32","m":"Starting routing..."}
+{"l":"info","t":"2022-08-26T16:59:04+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:44","m":"Router initialising..."}
+{"l":"info","t":"2022-08-26T16:59:04+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:47","m":"Swagger initialising..."}
+{"l":"info","t":"2022-08-26T16:59:04+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:51","m":"GUI initialising..."}
+{"l":"info","t":"2022-08-26T16:59:04+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:65","m":"Metrics initializing..."}
+{"l":"info","t":"2022-08-26T16:59:04+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:39","m":"Application correctly created"}
+{"l":"info","t":"2022-08-26T16:59:04+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:76","m":"Starting HTTP..."}
+{"l":"info","t":"2022-08-26T16:59:04+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:79","m":"Binding application to host: 0.0.0.0 and port: 3000"}
+{"l":"info","t":"2022-08-26T16:59:04+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:108","m":"Application initialise completely and started."}
+{"l":"info","t":"2022-08-26T16:59:30+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/main.go:17","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T16:59:30+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:31","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T16:59:30+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:32","m":"Starting routing..."}
+{"l":"info","t":"2022-08-26T16:59:30+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:44","m":"Router initialising..."}
+{"l":"info","t":"2022-08-26T16:59:30+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:47","m":"Swagger initialising..."}
+{"l":"info","t":"2022-08-26T16:59:30+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:51","m":"GUI initialising..."}
+{"l":"info","t":"2022-08-26T16:59:30+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:65","m":"Metrics initializing..."}
+{"l":"info","t":"2022-08-26T16:59:30+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:39","m":"Application correctly created"}
+{"l":"info","t":"2022-08-26T16:59:30+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:76","m":"Starting HTTP..."}
+{"l":"info","t":"2022-08-26T16:59:30+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:79","m":"Binding application to host: 0.0.0.0 and port: 3000"}
+{"l":"info","t":"2022-08-26T16:59:30+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:108","m":"Application initialise completely and started."}
+{"l":"info","t":"2022-08-26T16:59:52+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/main.go:17","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T16:59:52+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:31","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T16:59:52+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:32","m":"Starting routing..."}
+{"l":"info","t":"2022-08-26T16:59:52+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:44","m":"Router initialising..."}
+{"l":"info","t":"2022-08-26T16:59:52+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:47","m":"Swagger initialising..."}
+{"l":"info","t":"2022-08-26T16:59:52+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:51","m":"GUI initialising..."}
+{"l":"info","t":"2022-08-26T16:59:52+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:65","m":"Metrics initializing..."}
+{"l":"info","t":"2022-08-26T16:59:52+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:39","m":"Application correctly created"}
+{"l":"info","t":"2022-08-26T16:59:52+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:76","m":"Starting HTTP..."}
+{"l":"info","t":"2022-08-26T16:59:52+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:79","m":"Binding application to host: 0.0.0.0 and port: 3000"}
+{"l":"info","t":"2022-08-26T16:59:52+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:108","m":"Application initialise completely and started."}
+{"l":"info","t":"2022-08-26T17:00:49+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/main.go:17","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T17:00:49+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:31","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T17:00:49+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:32","m":"Starting routing..."}
+{"l":"info","t":"2022-08-26T17:00:49+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:44","m":"Router initialising..."}
+{"l":"info","t":"2022-08-26T17:00:49+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:47","m":"Swagger initialising..."}
+{"l":"info","t":"2022-08-26T17:00:49+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:51","m":"GUI initialising..."}
+{"l":"info","t":"2022-08-26T17:00:49+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:65","m":"Metrics initializing..."}
+{"l":"info","t":"2022-08-26T17:00:49+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:39","m":"Application correctly created"}
+{"l":"info","t":"2022-08-26T17:00:49+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:76","m":"Starting HTTP..."}
+{"l":"info","t":"2022-08-26T17:00:49+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:79","m":"Binding application to host: 0.0.0.0 and port: 3000"}
+{"l":"info","t":"2022-08-26T17:00:49+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:108","m":"Application initialise completely and started."}
+{"l":"info","t":"2022-08-26T17:01:23+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/main.go:17","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T17:01:23+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:31","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T17:01:23+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:32","m":"Starting routing..."}
+{"l":"info","t":"2022-08-26T17:01:23+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:44","m":"Router initialising..."}
+{"l":"info","t":"2022-08-26T17:01:23+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:47","m":"Swagger initialising..."}
+{"l":"info","t":"2022-08-26T17:01:23+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:51","m":"GUI initialising..."}
+{"l":"info","t":"2022-08-26T17:01:23+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:55","m":"LOGIN"}
+{"l":"info","t":"2022-08-26T17:01:23+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:66","m":"Metrics initializing..."}
+{"l":"info","t":"2022-08-26T17:01:23+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:39","m":"Application correctly created"}
+{"l":"info","t":"2022-08-26T17:01:23+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:77","m":"Starting HTTP..."}
+{"l":"info","t":"2022-08-26T17:01:23+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:80","m":"Binding application to host: 0.0.0.0 and port: 3000"}
+{"l":"info","t":"2022-08-26T17:01:23+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:109","m":"Application initialise completely and started."}
+{"l":"info","t":"2022-08-26T17:01:46+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/main.go:17","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T17:01:46+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:31","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T17:01:46+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:32","m":"Starting routing..."}
+{"l":"info","t":"2022-08-26T17:01:46+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:44","m":"Router initialising..."}
+{"l":"info","t":"2022-08-26T17:01:46+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:47","m":"Swagger initialising..."}
+{"l":"info","t":"2022-08-26T17:01:46+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:51","m":"GUI initialising..."}
+{"l":"info","t":"2022-08-26T17:01:46+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:55","m":"LOGIN"}
+{"l":"info","t":"2022-08-26T17:01:46+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:66","m":"Metrics initializing..."}
+{"l":"info","t":"2022-08-26T17:01:46+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:39","m":"Application correctly created"}
+{"l":"info","t":"2022-08-26T17:01:46+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:77","m":"Starting HTTP..."}
+{"l":"info","t":"2022-08-26T17:01:46+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:80","m":"Binding application to host: 0.0.0.0 and port: 3000"}
+{"l":"info","t":"2022-08-26T17:01:46+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:109","m":"Application initialise completely and started."}
+{"l":"info","t":"2022-08-26T17:02:53+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/main.go:17","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T17:02:53+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:31","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T17:02:53+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:32","m":"Starting routing..."}
+{"l":"info","t":"2022-08-26T17:02:53+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:44","m":"Router initialising..."}
+{"l":"info","t":"2022-08-26T17:02:53+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:47","m":"Swagger initialising..."}
+{"l":"info","t":"2022-08-26T17:02:53+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:51","m":"GUI initialising..."}
+{"l":"info","t":"2022-08-26T17:02:53+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:66","m":"Metrics initializing..."}
+{"l":"info","t":"2022-08-26T17:02:53+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:39","m":"Application correctly created"}
+{"l":"info","t":"2022-08-26T17:02:53+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:77","m":"Starting HTTP..."}
+{"l":"info","t":"2022-08-26T17:02:53+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:80","m":"Binding application to host: 0.0.0.0 and port: 3000"}
+{"l":"info","t":"2022-08-26T17:02:53+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:109","m":"Application initialise completely and started."}
+{"l":"info","t":"2022-08-26T17:03:25+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/main.go:17","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T17:03:25+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:31","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T17:03:25+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:32","m":"Starting routing..."}
+{"l":"info","t":"2022-08-26T17:03:25+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:44","m":"Router initialising..."}
+{"l":"info","t":"2022-08-26T17:03:25+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:47","m":"Swagger initialising..."}
+{"l":"info","t":"2022-08-26T17:03:25+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:51","m":"GUI initialising..."}
+{"l":"info","t":"2022-08-26T17:04:55+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/main.go:17","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T17:04:55+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:31","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T17:04:55+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:32","m":"Starting routing..."}
+{"l":"info","t":"2022-08-26T17:04:55+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:44","m":"Router initialising..."}
+{"l":"info","t":"2022-08-26T17:04:55+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:47","m":"Swagger initialising..."}
+{"l":"info","t":"2022-08-26T17:04:55+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:51","m":"GUI initialising..."}
+{"l":"info","t":"2022-08-26T17:05:05+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/main.go:17","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T17:05:05+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:31","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T17:05:05+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:32","m":"Starting routing..."}
+{"l":"info","t":"2022-08-26T17:05:05+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:44","m":"Router initialising..."}
+{"l":"info","t":"2022-08-26T17:05:05+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:47","m":"Swagger initialising..."}
+{"l":"info","t":"2022-08-26T17:05:05+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:51","m":"GUI initialising..."}
+{"l":"info","t":"2022-08-26T17:05:05+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:67","m":"Metrics initializing..."}
+{"l":"info","t":"2022-08-26T17:05:05+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:39","m":"Application correctly created"}
+{"l":"info","t":"2022-08-26T17:05:05+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:78","m":"Starting HTTP..."}
+{"l":"info","t":"2022-08-26T17:05:05+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:81","m":"Binding application to host: 0.0.0.0 and port: 3000"}
+{"l":"info","t":"2022-08-26T17:05:05+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:110","m":"Application initialise completely and started."}
+{"l":"info","t":"2022-08-26T17:06:45+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/main.go:17","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T17:06:45+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:31","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T17:06:45+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:32","m":"Starting routing..."}
+{"l":"info","t":"2022-08-26T17:06:45+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:44","m":"Router initialising..."}
+{"l":"info","t":"2022-08-26T17:06:45+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:47","m":"Swagger initialising..."}
+{"l":"info","t":"2022-08-26T17:06:45+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:51","m":"GUI initialising..."}
+{"l":"info","t":"2022-08-26T17:06:45+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:67","m":"Metrics initializing..."}
+{"l":"info","t":"2022-08-26T17:06:45+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:39","m":"Application correctly created"}
+{"l":"info","t":"2022-08-26T17:06:45+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:78","m":"Starting HTTP..."}
+{"l":"info","t":"2022-08-26T17:06:45+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:81","m":"Binding application to host: 0.0.0.0 and port: 3000"}
+{"l":"info","t":"2022-08-26T17:06:45+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:110","m":"Application initialise completely and started."}
+{"l":"info","t":"2022-08-26T17:06:47+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/gui/HTML.go:44","m":"Token is:dcda4ced960b50b08dd609a1a784f655b77af288ca128b3f5f0bde91ca7433cf"}
+{"l":"info","t":"2022-08-26T17:07:32+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/main.go:17","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T17:07:32+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:31","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T17:07:32+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:32","m":"Starting routing..."}
+{"l":"info","t":"2022-08-26T17:07:32+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:44","m":"Router initialising..."}
+{"l":"info","t":"2022-08-26T17:07:32+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:47","m":"Swagger initialising..."}
+{"l":"info","t":"2022-08-26T17:07:32+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:51","m":"GUI initialising..."}
+{"l":"info","t":"2022-08-26T17:07:32+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:67","m":"Metrics initializing..."}
+{"l":"info","t":"2022-08-26T17:07:32+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:39","m":"Application correctly created"}
+{"l":"info","t":"2022-08-26T17:07:32+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:78","m":"Starting HTTP..."}
+{"l":"info","t":"2022-08-26T17:07:32+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:81","m":"Binding application to host: 0.0.0.0 and port: 3000"}
+{"l":"info","t":"2022-08-26T17:07:32+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:110","m":"Application initialise completely and started."}
+{"l":"info","t":"2022-08-26T17:07:33+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/gui/HTML.go:44","m":"Token for name:LOGIN password:PASSWORD :DCDA4CED960B50B08DD609A1A784F655B77AF288CA128B3F5F0BDE91CA7433CF"}
+{"l":"info","t":"2022-08-26T17:08:36+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/main.go:17","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T17:08:36+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:31","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T17:08:36+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:32","m":"Starting routing..."}
+{"l":"info","t":"2022-08-26T17:08:36+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:44","m":"Router initialising..."}
+{"l":"info","t":"2022-08-26T17:08:36+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:47","m":"Swagger initialising..."}
+{"l":"info","t":"2022-08-26T17:08:36+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:51","m":"GUI initialising..."}
+{"l":"info","t":"2022-08-26T17:08:36+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:66","m":"Metrics initializing..."}
+{"l":"info","t":"2022-08-26T17:08:36+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:39","m":"Application correctly created"}
+{"l":"info","t":"2022-08-26T17:08:36+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:77","m":"Starting HTTP..."}
+{"l":"info","t":"2022-08-26T17:08:36+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:80","m":"Binding application to host: 0.0.0.0 and port: 3000"}
+{"l":"info","t":"2022-08-26T17:08:36+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:109","m":"Application initialise completely and started."}
+{"l":"info","t":"2022-08-26T17:08:39+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/gui/HTML.go:44","m":"Token for name:LOGIN password:PASSWORD :DCDA4CED960B50B08DD609A1A784F655B77AF288CA128B3F5F0BDE91CA7433CF"}
+{"l":"info","t":"2022-08-26T17:09:56+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/main.go:17","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T17:09:56+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:31","m":"Starting application..."}
+{"l":"info","t":"2022-08-26T17:09:56+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:32","m":"Starting routing..."}
+{"l":"info","t":"2022-08-26T17:09:56+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:44","m":"Router initialising..."}
+{"l":"info","t":"2022-08-26T17:09:56+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:47","m":"Swagger initialising..."}
+{"l":"info","t":"2022-08-26T17:09:56+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:51","m":"GUI initialising..."}
+{"l":"info","t":"2022-08-26T17:09:56+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:66","m":"Metrics initializing..."}
+{"l":"info","t":"2022-08-26T17:09:56+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:39","m":"Application correctly created"}
+{"l":"info","t":"2022-08-26T17:09:56+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:77","m":"Starting HTTP..."}
+{"l":"info","t":"2022-08-26T17:09:56+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:80","m":"Binding application to host: 0.0.0.0 and port: 3000"}
+{"l":"info","t":"2022-08-26T17:09:56+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/application/app.go:109","m":"Application initialise completely and started."}
+{"l":"info","t":"2022-08-26T17:09:57+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/gui/HTML.go:43","m":"Started Auth on auth server..."}
+{"l":"info","t":"2022-08-26T17:09:57+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/gui/HTML.go:45","m":"Token for name:LOGIN password:PASSWORD :DCDA4CED960B50B08DD609A1A784F655B77AF288CA128B3F5F0BDE91CA7433CF"}
+{"l":"info","t":"2022-08-26T17:09:57+03:00","c":"D:/Dev/Projects/gRPC_EncryptionService/ClientService/internal/gui/HTML.go:49","m":"Auth completed."}

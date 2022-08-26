@@ -1,6 +1,7 @@
 package gui_html
 
 import (
+	"ClientService/internal/logging"
 	"ClientService/internal/user"
 	"html/template"
 	"log"
@@ -20,6 +21,7 @@ const (
 type Handler struct {
 	HtmlRoot string
 	User     *user.User
+	*logging.Logger
 }
 
 func (h *Handler) Register(router *httprouter.Router) {
@@ -35,12 +37,17 @@ func (h *Handler) Register(router *httprouter.Router) {
 // @Tags gui
 // @Success 200
 // @Failure 401
-// @Router /Authentificate [post]
+// @Router /Auth [post]
 func (h *Handler) Auth(w http.ResponseWriter, _ *http.Request) {
+	//TODO: Username/Password from configuration
+	h.Logger.Info().Msg("Started Auth on auth server...")
 	h.User.Auth.Authentificate(h.User.GetUserName(), h.User.GetPassword())
-	if _, err := w.Write([]byte("Hello from Authentificate,token now is:" + h.User.Auth.GetToken())); err != nil {
+	h.Logger.Info().Msgf("Token for name:%s password:%s \t Token:%X", h.User.GetUserName(), h.User.GetPassword(), h.User.GetToken())
+	if _, err := w.Write([]byte("Одноразовый токен успешно получен")); err != nil {
 		w.WriteHeader(http.StatusUnauthorized)
 	}
+	h.Logger.Info().Msg("Auth completed.")
+
 }
 
 // MainPage TODO: Set gui template to config file?

@@ -12,7 +12,7 @@ type ClientConfig struct {
 	HomeDir        string `env:"HOME"`
 	Port           string `env:"PORT" envDefault:"3000"`
 	Login          string `env:"LOGIN" envDefault:"LOGIN"`
-	Password       string `env:"PASSWORD,unset"`
+	Password       string `env:"PASSWORD" envDefault:"PASSWORD"`
 	HTMLRootFolder string `env:"HTML_ROOT" envDefault:"./internal/gui/main.html"`
 
 	Host           string `env:"HOST" envDefault:"0.0.0.0"`
@@ -27,7 +27,7 @@ type ClientConfig struct {
 	}
 	AuthConfig struct {
 		AuthHostName string `env:"AUTHHOST" envDefault:"0.0.0.0"`
-		AuthPort     string `env:"AUTHPORT" envDefault:"3000"`
+		AuthPort     string `env:"AUTHPORT" envDefault:"2000"`
 	}
 }
 

@@ -1,6 +1,8 @@
 package user
 
-import "crypto"
+import (
+	"crypto"
+)
 
 type User struct {
 	UID      string
@@ -26,11 +28,11 @@ func (u User) DeleteRecord() bool {
 	panic("implement me")
 }
 
-func (u User) SetUserName(newname string) {
+func (u *User) SetUserName(newname string) {
 	u.username = newname
 }
 
-func (u User) SetPassword(password string) {
+func (u *User) SetPassword(password string) {
 	u.password = password
 }
 
