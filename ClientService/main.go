@@ -20,5 +20,4 @@ func main() {
 		logger.Fatal().Err(err).Msg("Application can't start")
 	}
 	app.Run()
-	//StartgRPC()
 }

@@ -1,6 +1,7 @@
 package gui_html
 
 import (
+	gRPC_Client "ClientService/external/gRPC-Client"
 	"ClientService/internal/logging"
 	"ClientService/internal/user"
 	"html/template"
@@ -77,6 +78,8 @@ func (h *Handler) MainPage(w http.ResponseWriter, _ *http.Request) {
 // @Failure 401
 // @Router /GetStorage [post]
 func (h *Handler) GetStorage(w http.ResponseWriter, _ *http.Request) {
+	//TODO: изменить хардкод порта/адреса и изменить имя переменной
+	gRPC_Client.StartConnectionAndGetStorage("127.0.0.1:9999", h.User.GetToken(), 10, h.Logger)
 	if _, err := w.Write([]byte("Hello from GetStorage")); err != nil {
 		w.WriteHeader(http.StatusUnauthorized)
 	}

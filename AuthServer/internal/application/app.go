@@ -40,6 +40,7 @@ func (app *Application) Run() {
 	}
 }
 
+//TODO: revork to secure connection? grpc? tls?
 func handleClient(conn net.Conn) {
 	//TODO: переделать на нормальную обработку логина пароля от клиента
 	for {
@@ -48,7 +49,7 @@ func handleClient(conn net.Conn) {
 			fmt.Println(err)
 			break
 		}
-		//TODO: testing with hasher function
+		//TODO: testing with hasher function,revork to interface with some CSP's?
 		fmt.Printf("Печатает буфер:%X\n", message)
 		hasher := sha256.New()
 		hasher.Write([]byte(message))

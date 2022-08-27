@@ -25,12 +25,16 @@ type Application struct {
 	logger     *logging.Logger
 	router     *httprouter.Router
 	httpServer *http.Server
+	User       *user.User
 }
 
 func NewApplication(cfg *Settings.ClientConfig, logger *logging.Logger) (Application, error) {
 	logger.Info().Msg("Starting application...")
 	logger.Info().Msg("Starting routing...")
-	router := startRouting(logger, cfg)
+	//Установим значения из конфига в структуру User
+	//TODO: collides with package name
+	user := SetUserConfiguration(cfg)
+	router := startRouting(logger, cfg, user)
 	app := Application{
 		cfg:    cfg,
 		logger: logger,
@@ -40,7 +44,7 @@ func NewApplication(cfg *Settings.ClientConfig, logger *logging.Logger) (Applica
 	return app, nil
 }
 
-func startRouting(logger *logging.Logger, cfg *Settings.ClientConfig) *httprouter.Router {
+func startRouting(logger *logging.Logger, cfg *Settings.ClientConfig, user *user.User) *httprouter.Router {
 	logger.Info().Msg("Router initialising...")
 	router := httprouter.New()
 
@@ -50,12 +54,9 @@ func startRouting(logger *logging.Logger, cfg *Settings.ClientConfig) *httproute
 
 	logger.Info().Msg("GUI initialising...")
 
-	//Установим значения из конфига в структуру User
-	User := SetUserConfiguration(cfg)
-
 	guiHandler := guihtml.Handler{
 		HtmlRoot: cfg.HTMLRootFolder,
-		User:     &User,
+		User:     user,
 		Logger:   logger,
 	}
 
@@ -67,13 +68,13 @@ func startRouting(logger *logging.Logger, cfg *Settings.ClientConfig) *httproute
 	return router
 }
 
-func SetUserConfiguration(cfg *Settings.ClientConfig) user.User {
+func SetUserConfiguration(cfg *Settings.ClientConfig) *user.User {
 	User := user.User{}
 	User.SetUserName(cfg.Login)
 	User.SetPassword(cfg.Password)
 	User.SetServerPort(cfg.AuthConfig.AuthPort)
 	User.SetServerHost(cfg.AuthConfig.AuthHostName)
-	return User
+	return &User
 }
 
 func (app *Application) Run() {

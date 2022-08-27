@@ -16,7 +16,7 @@ type server struct {
 
 // SayHello implements helloworld.GreeterServer
 func (s *server) GetStorage(ctx context.Context, in *pb.Token) (*pb.Storage, error) {
-	log.Printf("Received: %v", in.GetToken())
+	log.Printf("Received: %X", in.GetToken())
 	defer ctx.Done()
 	return &pb.Storage{
 		Site:     []string{"MySite", "1"},
@@ -26,6 +26,7 @@ func (s *server) GetStorage(ctx context.Context, in *pb.Token) (*pb.Storage, err
 }
 
 func main() {
+	//TODO: why using flag? want to have cmd access?
 	flag.Parse()
 	lis, err := net.Listen("tcp", fmt.Sprintf(":%d", 9999))
 	if err != nil {

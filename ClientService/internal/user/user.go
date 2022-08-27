@@ -14,17 +14,17 @@ type User struct {
 }
 
 func (u User) GetStorage() bool {
-	//TODO implement me
+	//TODO: implement me
 	panic("implement me")
 }
 
 func (u User) AddUpdateStorageRecord() bool {
-	//TODO implement me
+	//TODO: implement me
 	panic("implement me")
 }
 
 func (u User) DeleteRecord() bool {
-	//TODO implement me
+	//TODO: implement me
 	panic("implement me")
 }
 
