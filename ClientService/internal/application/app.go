@@ -32,9 +32,8 @@ func NewApplication(cfg *Settings.ClientConfig, logger *logging.Logger) (Applica
 	logger.Info().Msg("Starting application...")
 	logger.Info().Msg("Starting routing...")
 	//Установим значения из конфига в структуру User
-	//TODO: collides with package name
-	user := SetUserConfiguration(cfg)
-	router := startRouting(logger, cfg, user)
+	userConfiguration := SetUserConfiguration(cfg)
+	router := startRouting(logger, cfg, userConfiguration)
 	app := Application{
 		cfg:    cfg,
 		logger: logger,
@@ -42,6 +41,15 @@ func NewApplication(cfg *Settings.ClientConfig, logger *logging.Logger) (Applica
 	}
 	app.logger.Info().Msg("Application correctly created")
 	return app, nil
+}
+
+func SetUserConfiguration(cfg *Settings.ClientConfig) *user.User {
+	User := user.User{}
+	User.SetUserName(cfg.Login)
+	User.SetPassword(cfg.Password)
+	User.SetServerPort(cfg.AuthConfig.AuthPort)
+	User.SetServerHost(cfg.AuthConfig.AuthHostName)
+	return &User
 }
 
 func startRouting(logger *logging.Logger, cfg *Settings.ClientConfig, user *user.User) *httprouter.Router {
@@ -66,15 +74,6 @@ func startRouting(logger *logging.Logger, cfg *Settings.ClientConfig, user *user
 	metricHandler := metrics.Handler{}
 	metricHandler.Register(router)
 	return router
-}
-
-func SetUserConfiguration(cfg *Settings.ClientConfig) *user.User {
-	User := user.User{}
-	User.SetUserName(cfg.Login)
-	User.SetPassword(cfg.Password)
-	User.SetServerPort(cfg.AuthConfig.AuthPort)
-	User.SetServerHost(cfg.AuthConfig.AuthHostName)
-	return &User
 }
 
 func (app *Application) Run() {
