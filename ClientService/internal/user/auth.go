@@ -19,7 +19,7 @@ func (a *Auth) Authentificate(login, password string) {
 	//TODO: set info from config?
 	conn, _ := net.Dial("tcp", "0.0.0.0:2000") // открываем TCP-соединение к серверу
 	for {
-		data := []byte(login + password + "\n")
+		data := []byte(login + " " + password + "\n")
 		if _, err := conn.Write(data); err != nil {
 			fmt.Println("Error sending login/password to auth server")
 		}
