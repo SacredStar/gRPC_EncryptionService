@@ -24,6 +24,7 @@ func NewAuthApplication(cfg *config.AuthServerConfig, logger *logging.Logger) (A
 	logger.Info().Msg("Starting application...")
 	logger.Info().Msg("Acquiring crypto context...")
 	var hProvHandle windows.Handle
+	//TODO:  revert to my api(GOST)
 	if err := windows.CryptAcquireContext(&hProvHandle, nil, nil, 80, windows.CRYPT_VERIFYCONTEXT); err != nil {
 		logger.Fatal().Msg("Cant AcquireContext of provider...")
 		return Application{}, err
@@ -52,8 +53,8 @@ func (app *Application) Run() {
 	}
 }
 
-//TODO: revork to secure connection? grpc? tls?
-//TODO: передлать на получение вначале определенного флага для действия?
+// TODO: revork to secure connection? grpc? tls?
+// TODO: передлать на получение вначале определенного флага для действия?
 func handleClient(conn net.Conn, app *Application) {
 	for {
 		message, err := bufio.NewReader(conn).ReadString('\n')
@@ -81,6 +82,7 @@ func processAuthMessage(message string, err error, app *Application) *User.User 
 	message = strings.TrimSuffix(message, "\n")
 	splitedMessage := strings.Split(message, " ")
 	str := []byte(message)
+	//TODO: тут должен быть не просто хеш, а добавление рандомных данных.Можно просто брать случайные данные с ПДСЧ
 	result, err := GOST.CreateHashFromData(app.hProv, GOST.CALG_GR3411_2012_256, &str[0], uint32(len(str)))
 	if err != nil {
 		app.logger.Fatal().Msgf("error. Can't create hash from message:%s", str)
