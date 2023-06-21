@@ -17,14 +17,13 @@ type Application struct {
 	cfg        *config.AuthServerConfig
 	logger     *logging.Logger
 	httpServer *http.Server
-	hProv      windows.Handle
+	hProv      windows.Handle //uintptr
 }
 
 func NewAuthApplication(cfg *config.AuthServerConfig, logger *logging.Logger) (Application, error) {
 	logger.Info().Msg("Starting application...")
 	logger.Info().Msg("Acquiring crypto context...")
 	var hProvHandle windows.Handle
-	//TODO:  revert to my api(GOST)
 	if err := windows.CryptAcquireContext(&hProvHandle, nil, nil, 80, windows.CRYPT_VERIFYCONTEXT); err != nil {
 		logger.Fatal().Msg("Cant AcquireContext of provider...")
 		return Application{}, err
@@ -63,7 +62,7 @@ func handleClient(conn net.Conn, app *Application) {
 			break
 		}
 		NewUser := processAuthMessage(message, err, app)
-		app.logger.Info().Msgf("Печатаем полученный хеш:%X\n", NewUser)
+		app.logger.Info().Msgf("Печатаем полученный хеш:%X\n", NewUser.Token)
 		//TODO: Тут должна быть пересылка на сервер?
 		//TODO: перед пересылкой необходимо удостовериться что такой User/password имеется в базе данных
 		if _, err := conn.Write([]byte(NewUser.Token)); err != nil {
@@ -81,7 +80,7 @@ func processAuthMessage(message string, err error, app *Application) *User.User 
 	//need to trim message from last new line char
 	message = strings.TrimSuffix(message, "\n")
 	splitedMessage := strings.Split(message, " ")
-	str := []byte(message)
+	str := []byte(splitedMessage[0] + splitedMessage[1])
 	//TODO: тут должен быть не просто хеш, а добавление рандомных данных.Можно просто брать случайные данные с ПДСЧ
 	result, err := GOST.CreateHashFromData(app.hProv, GOST.CALG_GR3411_2012_256, &str[0], uint32(len(str)))
 	if err != nil {

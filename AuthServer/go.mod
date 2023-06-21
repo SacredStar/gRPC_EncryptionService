@@ -6,7 +6,7 @@ require (
 	github.com/SacredStar/Encryption.go v0.0.0-20220831131453-8cdf4ebee6e1
 	github.com/caarlos0/env/v6 v6.9.3
 	github.com/rs/zerolog v1.27.0
-	golang.org/x/sys v0.0.0-20220829200755-d48e67d00261
+	golang.org/x/sys v0.9.0
 //github.com/SacredStar/Encryption.go @latest
 )
 
