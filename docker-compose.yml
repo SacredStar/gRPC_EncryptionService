@@ -1,0 +1,35 @@
+version: '3.1'
+
+services:
+  db:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_USER: test
+      POSTGRES_PASSWORD: example
+    ports:
+      - "5432:5432"
+
+  client-service:
+    image: golang:latest
+    volumes:
+      - ./ClientService/:/go/src/go-client
+    working_dir: /go/src/go-client
+    command: go run main.go
+    ports:
+      - "3000:3000"
+
+  server-service:
+    image: golang:latest
+    volumes:
+      - ./ServerService/:/go/src/go-server
+    working_dir: /go/src/go-server
+    command: go run main.go
+    ports:
+      - "9999:9999"
+
+
+
+
+
+

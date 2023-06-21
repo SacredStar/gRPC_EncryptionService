@@ -1,0 +1,8 @@
+include .env
+
+run-all:
+	exec docker-compose -f ./docker-compose.yml up -d
+	make run-auth
+
+run-auth:
+	go run ./AuthServer/main.go
