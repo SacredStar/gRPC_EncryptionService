@@ -5,4 +5,6 @@ run-all:
 	make run-auth
 
 run-auth:
-	go run ./AuthServer/main.go
+	export GOPATH=D:\Dev\Projects\gRPC_EncryptionService\AuthServer
+	go build -o .\AuthServer\bin\go_build_AuthServer.exe AuthServer #gosetup
+	D:\Dev\Projects\gRPC_EncryptionService\AuthServer\bin\go_build_AuthServer.exe
